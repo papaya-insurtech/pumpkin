@@ -39,6 +39,8 @@
   - OS
 - Slack
   - Tech channels
+    - [Tracking releases of repositories in used or of great interests](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
+    - [Papaya-insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
 - Software Development Process
   - Development Process
   - Testing
@@ -46,3 +48,4 @@
   - Peer Demo
   - Product Manager Demo
 - Cheetsheets
+- Awesome lists
