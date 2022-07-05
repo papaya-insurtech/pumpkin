@@ -1,0 +1,48 @@
+- Software Engineering Principles
+  - Software Stack
+  - Software Architecture
+  - Staying on edge
+  - Move fast, don't break things
+  - Growth
+  - Self sufficient
+  - How to make technical decisions yourself
+- Coding conventions
+- Style guides
+- Best practices
+  - Typescript
+  - React
+  - GraphQL
+  - Choosing the write node modules
+  - Trouble shooting
+  - Searching for solutions
+    - Google
+    - Github
+    - Stackoverflow
+- Git 
+  - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+  - Pull Requests
+- Patterns
+  - Hasura
+  - Typescript
+  - GraphQL
+  - React
+- Project set up
+  - Monorepo
+  - React
+  - Serverless
+- IDE
+  - VSCode set up
+  - Extensions
+- Local set up
+  - CLIs
+  - Tools
+  - OS
+- Slack
+  - Tech channels
+- Software Development Process
+  - Development Process
+  - Testing
+  - CI/CD
+  - Peer Demo
+  - Product Manager Demo
+- Cheetsheets
