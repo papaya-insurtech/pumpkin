@@ -7,6 +7,7 @@
   - Self sufficient
   - How to make technical decisions yourself
 - Coding conventions
+  - https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/
 - Style guides
 - Best practices
   - Typescript
