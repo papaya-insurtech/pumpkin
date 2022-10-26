@@ -27,10 +27,10 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 ## Front-end must-have
 
 1. Colorize: Used for colorizing CSS color values in your code. [kamikillerto.vscode-colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize).
-2. CSS Peek: Used for peeking to CSS ID and class names from HTML files. [pranaygp.vscode-css-peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+2. CSS Peek: Used for peeking at CSS ID and class names from HTML files. [pranaygp.vscode-css-peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 3. Auto rename paired HTML/XML tag [formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 4. Auto Close Tag: [formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-5.Preview.js [zenclabs.previewjs](https://marketplace.visualstudio.com/items?itemName=zenclabs.previewjs)
+5. Preview.js [zenclabs.previewjs](https://marketplace.visualstudio.com/items?itemName=zenclabs.previewjs)
 ## Document creation support
 
 1. Draw.io Integration: [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
