@@ -8,6 +8,7 @@
   - Growth
   - Self-sufficient
   - How to make technical decisions yourself
+  - https://github.com/jorgef/engineeringladders
 - Coding conventions
   - <https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/>
 - Style guides
@@ -16,7 +17,7 @@
   - React
   - GraphQL
   - Choosing the write node modules
-  - Trouble shooting
+  - Troubleshooting
   - Searching for solutions
     - Google
     - Github
@@ -35,20 +36,20 @@
   - Serverless
 - IDE
   - VSCode set up
-  - Extensions
+  - [Extensions](Software_Artisan_Handbook/VS_Code_Recommended_Extensions.md)
 - Local set up
   - CLIs
-  - Tools
-  - OS
+  - [Software & Tools](Software_Artisan_Handbook/OS_Softwares_And_Tools.md)
 - Slack
   - Tech channels
-    - [Tracking releases of repositories in use or of great interests](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
+    - [Tracking releases of repositories in use or of great interests (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
     - [Papaya-insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
+    - [Interesting and *interesting* links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V). Also takes RSS from sites of interests
 - Software Development Process
   - Development Process
   - Testing
   - CI/CD
   - Peer Demo
   - Product Manager Demo
-- Cheetsheets
+- Cheatsheets
 - Awesome lists
