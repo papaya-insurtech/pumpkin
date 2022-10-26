@@ -1,40 +1,69 @@
 # VS Code Recommended Extensions
 
+Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ctrl+Shift+X), these extensions are listed in the recommendation section.
+
 ## Language support: Code and docs formater/checker/validator/linter
 
-1. Code Spell Checker: `streetsidesoftware.code-spell-checker`. Used for spell check in our code (variable name, function name ...)
-2. Grammarly: `znck.grammarly`. Used for spell check and grammar check in our documents
-3. ESLint: `dbaeumer.vscode-eslint`
-4. Prettier: `esbenp.prettier-vscode`
-5. GraphQL: Language Feature Support: `GraphQL.vscode-graphql`
-6. GraphQL: Syntax Highlighting: `GraphQL.vscode-graphql-syntax`
-7. YAML: `redhat.vscode-yaml`
-8. markdownlint: `DavidAnson.vscode-markdownlint`
-9. DotENV: `mikestead.dotenv`
+1. Code Spell Checker: [streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Used for spell checking in our code (variable name, function name...). Works for camelCase and PascalCase too.
+2. Grammarly: [znck.grammarly](https://marketplace.visualstudio.com/items?itemName=znck.grammarly). Used for spell check and grammar check in our documents
+3. ESLint: [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+4. Prettier: [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+5. GraphQL: Language Feature Support: [GraphQL.vscode-graphql](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
+6. GraphQL: Syntax Highlighting: [GraphQL.vscode-graphql-syntax](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-syntax)
+7. GraphQL: Inline Operation Execution [GraphQL.vscode-graphql-execution](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-execution)
+8. YAML: [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+9. markdownlint: [DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+10. DotENV: [mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+11. Error Lens [usernamehw.errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+12. Auto Import: [steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+13. Find Unused Exports: [iulian-radu-at.find-unused-exports](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.find-unused-exports)
+14. All in one i18n [lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+15. Javascript and Typescript Nightly: [ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 
+## Testing
+
+1. Playwright [ms-playwright.playwright](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+
+## Front-end must-have
+
+1. Colorize: Used for colorizing CSS color values in your code. [kamikillerto.vscode-colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize).
+2. CSS Peek: Used for peeking to CSS ID and class names from HTML files. [pranaygp.vscode-css-peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+3. Auto rename paired HTML/XML tag [formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+4. Auto Close Tag: [formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+5.Preview.js [zenclabs.previewjs](https://marketplace.visualstudio.com/items?itemName=zenclabs.previewjs)
 ## Document creation support
 
-1. Draw.io Integration: `hediet.vscode-drawio`
-2. ERP Editor: `dineug.vuerd-vscode`
-3. Markdown Preview Github Styling: `bierner.markdown-preview-github-styles`
+1. Draw.io Integration: [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+2. ERP Editor: [dineug.vuerd-vscode](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode)
+3. Markdown Preview Github Styling: [bierner.markdown-preview-github-styles](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
 ## Git and Repo management
 
-1. GitLens - Git supercharged: `eamodio.gitlens`
-2. Git History: `donjayamanne.githistory` & `huizhou.githd`
-3. GitHub PRs and Issues: `GitHub.vscode-pull-request-github`
-4. Project Manager: `alefragnani.project-manager`
+1. GitLens - Git supercharged: [eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+2. Git History: [donjayamanne.githistory](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) & [huizhou.githd](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
+3. GitHub PRs and Issues: [GitHub.vscode-pull-request-github](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+4. Project Manager: [alefragnani.project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
 ## Productivity
 
-1. change-case: `wmaurer.change-case`
-2. Fig: `withfig.fig`
-3. GitHub Copilot: `GitHub.copilot`. Papaya will sponsor the developer the fee for using this one
+1. change-case: [wmaurer.change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+2. Fig: [withfig.fig](https://marketplace.visualstudio.com/items?itemName=withfig.fig). Install [fig](https://fig.io/) first.
+3. GitHub Copilot: [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Papaya sponsors all developers.
+4. View a Git Graph of your repository: [mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+5. See Git Blame information in the status bar for the currently selected line. [waderyan.gitblame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+6. Rainbow Brackets [2gua.rainbow-brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
+7. ES7+ React/Redux/GraphQL/React-Native snippets: [dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+8. Typescript Translator [mattpocock.ts-error-translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+
 
 ## DevOps stuff
 
-1. Remote - SSH: `ms-vscode-remote.remote-ssh`
-2. Remote - SSH: Editing Files: `ms-vscode-remote.remote-ssh-edit`
-3. Remote Development: `ms-vscode-remote.vscode-remote-extensionpack`
-4. Dev Containers: `ms-vscode-remote.remote-containers`
-5. Docker: `ms-azuretools.vscode-docker`
+1. Remote - SSH: [ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+2. Remote - SSH: Editing Files: [ms-vscode-remote.remote-ssh-edit](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+3. Remote Development: [ms-vscode-remote.vscode-remote-extensionpack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+4. Dev Containers: [ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+5. Docker: [ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
+## Fantasize
+
+1. Peacock: [johnpapa.vscode-peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
