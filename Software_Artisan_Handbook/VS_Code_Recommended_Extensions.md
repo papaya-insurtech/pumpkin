@@ -47,7 +47,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 ## Productivity
 
 1. change-case: [wmaurer.change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-2. Fig: [withfig.fig](https://marketplace.visualstudio.com/items?itemName=withfig.fig). Install [fig](https://fig.io/) first.
+2. [Fig](https://fig.io/). The extension is automatically installed when you install Fig.
 3. GitHub Copilot: [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Papaya sponsors all developers.
 4. View a Git Graph of your repository: [mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 5. See Git Blame information in the status bar for the currently selected line. [waderyan.gitblame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
