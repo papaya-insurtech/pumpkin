@@ -9,6 +9,7 @@
   - Self-sufficient
   - How to make technical decisions yourself
   - https://github.com/jorgef/engineeringladders
+  - https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/
 - Coding conventions
   - <https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/>
 - Style guides
