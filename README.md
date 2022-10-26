@@ -1,13 +1,15 @@
+# README
+
 - Software Engineering Principles
   - Software Stack
   - Software Architecture
   - Staying on edge
   - Move fast, don't break things
   - Growth
-  - Self sufficient
+  - Self-sufficient
   - How to make technical decisions yourself
 - Coding conventions
-  - https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/
+  - <https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/>
 - Style guides
 - Best practices
   - Typescript
@@ -19,7 +21,7 @@
     - Google
     - Github
     - Stackoverflow
-- Git 
+- Git
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
   - Pull Requests
 - Patterns
@@ -40,7 +42,7 @@
   - OS
 - Slack
   - Tech channels
-    - [Tracking releases of repositories in used or of great interests](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
+    - [Tracking releases of repositories in use or of great interests](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
     - [Papaya-insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
 - Software Development Process
   - Development Process
