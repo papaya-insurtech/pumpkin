@@ -53,3 +53,7 @@
   - Product Manager Demo
 - Cheatsheets
 - Awesome lists
+
+## Routines
+
+- Update Day: Monday weekly
