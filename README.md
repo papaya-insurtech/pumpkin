@@ -30,6 +30,7 @@
   - Typescript
   - GraphQL
   - React
+  - Serverless
 - Project set up
   - Monorepo
   - React
