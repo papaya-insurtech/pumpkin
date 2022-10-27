@@ -8,10 +8,10 @@
   - Growth
   - Self-sufficient
   - How to make technical decisions yourself
-  - https://github.com/jorgef/engineeringladders
-  - https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/
+  - [Engineering Ladders](https://github.com/jorgef/engineeringladders)
+  - [Jira - Process Issues with Smart Commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
 - Coding conventions
-  - <https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/>
+  - [Don't use short-circuiting when you want an if statement](https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/)
 - Style guides
 - Best practices
   - Typescript
@@ -21,7 +21,7 @@
   - Troubleshooting
   - Searching for solutions
     - Google
-    - Github
+    - GitHub
     - Stackoverflow
 - Git
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
@@ -44,9 +44,9 @@
   - [Software & Tools](Software_Artisan_Handbook/OS_Softwares_And_Tools.md)
 - Slack
   - Tech channels
-    - [Tracking releases of repositories in use or of great interests (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
+    - [Tracking releases of repositories in use or great interest (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
     - [Papaya-insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
-    - [Interesting and *interesting* links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V). Also takes RSS from sites of interests
+    - [Interesting and _interesting_ links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V). Also takes RSS from sites of interests
 - Software Development Process
   - Development Process
   - Testing
