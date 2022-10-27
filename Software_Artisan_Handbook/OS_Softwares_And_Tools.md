@@ -1,6 +1,5 @@
 # Software and Tools
 
-
 ## IDE
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
@@ -14,13 +13,11 @@
 4. [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en)
 5. [Refined Github](https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf?hl=en)
 
-
 ## Tools
 
 1. [Postman](https://www.postman.com/)
 
-
-## MacOS
+## macOS
 
 1. [AltTab](https://alt-tab-macos.netlify.app/)
 2. [Papaya Care](https://apps.apple.com/dz/app/papaya-care/id1619746723)

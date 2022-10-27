@@ -31,6 +31,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 3. Auto rename paired HTML/XML tag [formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 4. Auto Close Tag: [formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 5. Preview.js [zenclabs.previewjs](https://marketplace.visualstudio.com/items?itemName=zenclabs.previewjs)
+
 ## Document creation support
 
 1. Draw.io Integration: [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
@@ -54,7 +55,6 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 6. Rainbow Brackets [2gua.rainbow-brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
 7. ES7+ React/Redux/GraphQL/React-Native snippets: [dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 8. Typescript Translator [mattpocock.ts-error-translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
-
 
 ## DevOps stuff
 
