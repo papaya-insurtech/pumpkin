@@ -1,5 +1,9 @@
 # README
 
+This is our Knowledge Hub that we can share between artisans and the world
+
+## Wish List
+
 - Software Engineering Principles
   - Software Stack
   - Software Architecture
