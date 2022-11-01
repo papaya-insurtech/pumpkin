@@ -29,7 +29,7 @@ Kickstart your software engineering career with a strong tech team delivering In
 
 - Attractive internship salary based on your contribution
 - Internship certificate
-- Annual company trips, other company activities such as Happy Hour, Birthday Party, Playstation Games, Foosball
+- Annual company trips, other company activities such as Happy Hour, Birthday Party, PlayStation Games, Foosball
 - Experienced mentor and personal training plan that helps you grow with x10 speed
 - Opportunity to become a Full-time Employee after your internship
 
