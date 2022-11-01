@@ -52,9 +52,9 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 3. GitHub Copilot: [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Papaya sponsors all developers.
 4. View a Git Graph of your repository: [mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 5. See Git Blame information in the status bar for the currently selected line. [waderyan.gitblame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
-6. Rainbow Brackets [2gua.rainbow-brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
-7. ES7+ React/Redux/GraphQL/React-Native snippets: [dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-8. Typescript Translator [mattpocock.ts-error-translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+6. ES7+ React/Redux/GraphQL/React-Native snippets: [dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+7. Typescript Translator [mattpocock.ts-error-translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+8. Indented Block Highlighting [byi8220.indented-block-highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting)
 
 ## DevOps stuff
 

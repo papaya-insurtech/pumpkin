@@ -26,8 +26,8 @@
     "johnpapa.vscode-peacock",
     "ms-playwright.playwright",
     "zenclabs.previewjs",
-    "2gua.rainbow-brackets",
     "dsznajder.es7-react-js-snippets",
-    "mattpocock.ts-error-translator"
+    "mattpocock.ts-error-translator",
+    "byi8220.indented-block-highlighting"
   ]
 }
