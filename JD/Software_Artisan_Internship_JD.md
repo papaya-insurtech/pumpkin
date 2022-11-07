@@ -15,7 +15,7 @@ Kickstart your software engineering career with a strong tech team delivering In
 ## Preferred Qualifications
 
 - Familiar with TypeScript or ES6+
-- Knowledge of foundation front-end knowledge such as HTML, CSS. Being familiar with React will be a big plus.
+- Knowledge of foundation front-end knowledge such as HTML, and CSS. Being familiar with React will be a big plus.
 - Familiar with RESTful or GraphQL
 - Knowledge of Data Structure and Algorithm
 - Knowledge of Programming Paradigms such as OOP and FP
