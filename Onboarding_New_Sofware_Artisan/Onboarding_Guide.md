@@ -2,6 +2,5 @@
 
 ## References
 
-1. [Task Lifecycle](../Software_Artisan_Handbook/Task_Lifecycle.md)
-2. [Git Workflow](../Software_Artisan_Handbook/Git_Workflow.md)
-3. [VSCode Recommended Extensions](../Software_Artisan_Handbook/VS_Code_Recommended_Extensions.md)
+1. [Handbook](../Software_Artisan_Handbook)
+2. [Architecture Overview](https://github.com/papaya-insurtech/berry/blob/fc9ba2def7735f97346ff54e955d86e92caf3b9d/docs/architecture-overview/architecture-overview.md)
