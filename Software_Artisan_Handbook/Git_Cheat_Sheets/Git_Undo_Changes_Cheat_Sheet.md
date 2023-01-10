@@ -32,13 +32,13 @@ git reset --soft <commit/branch>
 
 ```bash
 # Undo the last 1 commit and keep the change as unstaged changes
-git reset <commit/branch> HEAD~1
+git reset HEAD~1
 # Undo the last 2 commits and keep the change as unstaged changes
-git reset <commit/branch> HEAD~2
+git reset HEAD~2
 
 # Undo all un-pushed commits of a branch in local and keep the change as unstaged changes
 git fetch
-git reset feature/example origin/feature/example
+git reset origin/feature/example
 ```
 
 ## DANGEROUS - Move the Current Branch to a specific commit and discard all changes
