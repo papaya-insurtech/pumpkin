@@ -47,6 +47,14 @@ git reset feature/example origin/feature/example
 git reset --hard <commit/branch>
 ```
 
+### Example
+```bash
+# Reset develop branch to exactly same as main and discard all changes 
+git fetch
+git switch develop
+git reset --hard origin/main
+```
+
 ## Replace the content of a file with the content of the same file in a specific commit, does not move the Current Branch
 
 ```bash
