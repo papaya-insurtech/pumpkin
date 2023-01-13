@@ -35,8 +35,9 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 ## Document creation support
 
 1. Draw.io Integration: [hediet.vscode-drawio](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
-2. ERP Editor: [dineug.vuerd-vscode](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode)
+2. ERD Editor: [dineug.vuerd-vscode](https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode)
 3. Markdown Preview Github Styling: [bierner.markdown-preview-github-styles](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+4. Mermaid.js.org: [bierner.markdown-mermaid](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
 ## Git and Repo management
 
@@ -48,13 +49,15 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 ## Productivity
 
 1. change-case: [wmaurer.change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-2. [Fig](https://fig.io/). The extension is automatically installed when you install Fig.
+2. Fig: [Fig](https://fig.io/). The extension is automatically installed when you install Fig.
 3. GitHub Copilot: [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). Papaya sponsors all developers.
 4. View a Git Graph of your repository: [mhutchie.git-graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 5. See Git Blame information in the status bar for the currently selected line. [waderyan.gitblame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
 6. ES7+ React/Redux/GraphQL/React-Native snippets: [dsznajder.es7-react-js-snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 7. Typescript Translator [mattpocock.ts-error-translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 8. Indented Block Highlighting [byi8220.indented-block-highlighting](https://marketplace.visualstudio.com/items?itemName=byi8220.indented-block-highlighting)
+9. Todo tree: [Gruntfuggly.todo-tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+10. Oh my zsh: [ohmyz.sh](https://ohmyz.sh/). The extension is automatically installed when you install ohmyzsh.
 
 ## DevOps stuff
 
