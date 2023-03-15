@@ -5,7 +5,7 @@ This is our Knowledge Hub that we can share between artisans and the world
 ## Wish List
 
 - Software Engineering Principles
-  - Software Stack
+  - [Tech Stack](Software_Artisan_Handbook/resources/Tech_Stack.md)
   - Software Architecture
   - Staying on edge
   - Move fast, don't break things
@@ -30,6 +30,7 @@ This is our Knowledge Hub that we can share between artisans and the world
 - Git
   - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
   - Pull Requests
+  - [Cheat Sheet](Software_Artisan_Handbook/resources/Git_Cheat_Sheets/Git_Cheat_Sheets.md)
 - Patterns
   - Hasura
   - Typescript
@@ -49,10 +50,10 @@ This is our Knowledge Hub that we can share between artisans and the world
 - Slack
   - Tech channels
     - [Tracking releases of repositories in use or great interest (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
-    - [Papaya-insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
+    - [Papaya-Insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
     - [Interesting and _interesting_ links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V). Also takes RSS from sites of interests
 - Software Development Process
-  - Development Process
+  - [Development Process](Software_Artisan_Handbook/resources/Development_Process/Development_Process.md)
   - Testing
   - CI/CD
   - Peer Demo
