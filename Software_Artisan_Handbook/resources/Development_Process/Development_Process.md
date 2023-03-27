@@ -2,6 +2,8 @@
 
 ## Overview
 
+For more information about the Development Process, please refer to [Development Process](https://coda.io/d/Product-Management_dsmAZmGCx7L/Product-Management-Process_suc5O#_luNuD).
+
 ## Mindset
 
 We build a process and a team with the following mindset in our mind:
