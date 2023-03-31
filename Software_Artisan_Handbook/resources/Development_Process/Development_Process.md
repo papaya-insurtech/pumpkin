@@ -26,15 +26,15 @@ We build a process and a team with the following mindset in our mind:
 
 - Git Workflow should align with the Development Process.
 - Therefore we define the Git Workflow based on a Standard but also put some customizations on top of it.
-- For more details, please refer to [Git Workflow](Git_Workflow.md).
+- For more details, please refer to [Git Workflow](./resources/Git_Workflow.md).
 
 ### [System Environment](./resources/System_Environment.md)
 
 - System Environments structure should align with the Development Process.
 - Therefore we define the System Environment based on a Standard but also put some customizations on top of it.
-- For more details, please refer to [System Environment](System_Environment.md).
+- For more details, please refer to [System Environment](./resources/System_Environment.md).
 
 ### [Task Lifecycle](./resources/Task_Lifecycle.md)
 
 - This is a subprocess for Software Artisan to handle their tasks smoothly and align with the Development Process.
-- For more details, please refer to [Task Lifecycle](Task_Lifecycle.md).
+- For more details, please refer to [Task Lifecycle](./resources/Task_Lifecycle.md).
