@@ -19,7 +19,7 @@
        6. Other related information
   - **Priority** (required)
   - **Due date** (required) - Due date is the date the task is deployed or released (depending on requirements), each Dev must ensure that their task meets the Due Date on time.
-  - **Environment** (required) (For more information, see [System Environment](System_Environment.md))
+  - **Env** (required) (For more information, see [System Environment](System_Environment.md))
   - **UI** - Link to accompanying interface if any
   - **Related tasks**
   - **References resources**
@@ -64,13 +64,14 @@ This step is taken after completing research and coming up with a solution, imme
 - Must re-test other features if the code is related.
 - Update How to test in Jira task if there are special notes when testing the task.
 - If some necessary test data need to be created but you don't know how to create it, ask QA/QC or the task creator for help.
+- If there is a merge conflict, after resolving the conflict, we must re-test the related feature to ensure it works correctly.
 
 ## VI. Code Review
 
 - Update the name of the PR, and remove the Draft status.
 - Self-review the PR and your code changes. Remove any obvious mistakes such as `console.log`, file name typos, forgot code push, etc.
 - Remind the reviewer daily for the PR to be reviewed.
-- If this is an urgent task, clearly state the importance/priority, deadline of the task, and consequences if the task is completed late, so that the reviewer prioritizes reviewing. Raise to the team if the task shows signs of delay.
+- If this is an urgent task, clearly state the importance/priority, deadline of the task, and consequences if the task is late completed so that the reviewer prioritizes reviewing. Raise to the team if the task shows signs of delay.
 
 ## VII. Deploying
 
