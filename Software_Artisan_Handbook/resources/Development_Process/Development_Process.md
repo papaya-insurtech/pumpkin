@@ -38,3 +38,8 @@ We build a process and a team with the following mindset in our mind:
 
 - This is a subprocess for Software Artisan to handle their tasks smoothly and align with the Development Process.
 - For more details, please refer to [Task Lifecycle](./resources/Task_Lifecycle.md).
+
+### [Tech Diary Routine](./resources/Tech_Diary_Routine.md)
+
+- This is a routine for Software Artisan to write their daily updates and align with the Development Process.
+- For more details, please refer to [Tech Diary Routine](./resources/Tech_Diary_Routine.md).
