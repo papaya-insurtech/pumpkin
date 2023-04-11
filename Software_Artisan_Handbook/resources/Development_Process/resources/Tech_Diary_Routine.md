@@ -7,10 +7,10 @@ A place for everyone to write a daily diary about what they have accomplished (c
 ## How it works
 
 - There is a slack channel #tech-diary for everyone to write their daily updates.
-- Each member will have their thread to write their daily diary, when replying to their thread, remember to tick "Also send to #tech-diary".
+- Each member will create their thread (for the first time onboarding) to write their daily diary, when replying to the thread, remember to tick "Also send to #tech-diary".
 - You can view the latest updates of all members in order, and each member can still view their updates separately without being mixed up with the others.
 - Members will write their updates at the end of the day, and read them again at the beginning of the next day.
-- Members can quick find their thread via Pinned messages of the channel.
+- Members can quickly find their thread via Pinned messages on the channel.
 
 ## Sample format for an update
 
