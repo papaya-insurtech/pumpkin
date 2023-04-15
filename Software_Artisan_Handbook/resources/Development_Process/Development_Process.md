@@ -43,3 +43,8 @@ We build a process and a team with the following mindset in our mind:
 
 - This is a routine for Software Artisan to write their daily updates and align with the Development Process.
 - For more details, please refer to [Tech Diary Routine](./resources/Tech_Diary_Routine.md).
+
+### [Code Review](./resources/Code_Review/Code_Review.md)
+
+- This is a Code Review checklist and best practices for Software Artisan to align with the Development Process.
+- For more details, please refer to [Code Review](./resources/Code_Review/Code_Review.md).

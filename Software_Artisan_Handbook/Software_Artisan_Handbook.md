@@ -13,3 +13,5 @@ This handbook is designed to be a comprehensive guide that covers everything fro
 ## [VSCode Recommended Extensions](./resources/VS_Code_Recommended_Extensions.md)
 
 ## [OS Softwares And Tools](./resources/OS_Softwares_And_Tools.md)
+
+## [Coding Convention](./resources/Coding_Convention/Coding_Convention.md)
