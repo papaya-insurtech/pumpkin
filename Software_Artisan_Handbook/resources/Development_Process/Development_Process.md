@@ -48,3 +48,8 @@ We build a process and a team with the following mindset in our mind:
 
 - This is a Code Review checklist and best practices for Software Artisan to align with the Development Process.
 - For more details, please refer to [Code Review](./resources/Code_Review/Code_Review.md).
+
+### [Release Process](./resources/Release_Process.md)
+
+- This is a Release Process for Software Artisan to align with the Development Process.
+- For more details, please refer to [Release Process](./resources/Release_Process.md).
