@@ -38,6 +38,29 @@ TypeScript is a superset of JavaScript that adds static typing and other feature
 
 - Use UPPER_CASE for enum names.
 
+## Syntax Convention
+
+- Prefer modern syntax or syntax sugar.
+  - Spread syntax.
+  - Destructuring assignment.
+  - Optional chaining.
+    - When to use
+    - When not to use
+  - Nullish coalescing operator.
+  - Template literals.
+  - Arrow functions.
+- Nullish check: `== null` or `!= null` for (check `null` or `undefined`).
+- Restrict implicit truthy and falsy checking.
+- Type conversion.
+- Prevent default values using the `||` operator.
+
+## Logic convention
+
+- Prefer early return over nested if-else.
+- Prefer the ternary operator over if-else.
+- Prefer switch case or multiple if over nested if-else.
+- Prefer key/value map over switch case.
+
 ## Declarative Programming
 
 Declarative programming is a programming paradigm that focuses on describing what the program should accomplish, rather than how it should be accomplished. In declarative programming, the programmer specifies the desired outcome or goal of the program, and the program itself takes care of the implementation details.

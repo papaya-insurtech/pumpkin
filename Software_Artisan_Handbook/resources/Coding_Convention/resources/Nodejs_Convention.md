@@ -1,0 +1,22 @@
+# Nodejs Convention
+
+- Error Handling Convention.
+  - BaseError / Custom Error
+  - Throw / Not to Throw
+  - Prevent silent error
+  - Reaction convention
+- Library type (built-in, self develop, 3rd party) Preferred Convention.
+- Promise Using Convention.
+  - Bluebird / Promise native
+  - .catch, .then / try catch
+  - Sleep
+  - Parallel convention
+  - Async , Await
+- Retry Convention.
+  - Retry function
+  - Retry SQS
+  - Retry Hasura Trigger
+- Date Time Convention.
+- Localization Convention.
+- Logging Convention.
+- GraphQL codegen convention.

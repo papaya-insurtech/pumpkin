@@ -1,1 +1,51 @@
-# Hasura Convention
+# Hasura/Database Convention
+
+- Soft delete convention.
+- Permission convention.
+  - select permission.
+    - Row select permission convention.
+    - Column select permission convention.
+    - Aggregation queries permission convention.
+    - Root fields permission convention.
+  - insert permission.
+    - Row insert permission convention.
+    - Column insert permission convention.
+    - Column presets convention.
+  - update permission.
+    - Row update permission convention.
+    - Pre-update check convention.
+    - Post-update check convention.
+    - Column update permission convention.
+    - Column presets convention.
+  - delete permission.
+  - Role convention.
+- Relationship convention.
+- Naming convention.
+  - Table naming convention.
+  - Column naming convention.
+  - Relationship naming convention.
+- Retry trigger convention.
+- Transaction handling convention.
+- Default Column convention.
+  - created_at
+  - updated_at
+  - deleted_at
+  - created_by
+  - updated_by
+  - deleted_by
+- Column value type convention.
+  - Text
+  - Number
+  - Timestamptz
+  - Enum
+  - Jsonb
+- Unique constraint convention.
+- Index convention.
+- Migration convention.
+- Data seeding convention.
+- Metadata convention.
+- Environment convention.
+- Query data convention
+- Update data convention
+- Insert data convention
+- Delete data convention
