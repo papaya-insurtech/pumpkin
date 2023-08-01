@@ -66,6 +66,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 3. Remote Development: [ms-vscode-remote.vscode-remote-extensionpack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 4. Dev Containers: [ms-vscode-remote.remote-containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 5. Docker: [ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+6. AWS stuff: [mark-tucker.aws-cli-configure](https://marketplace.visualstudio.com/items?itemName=mark-tucker.aws-cli-configure)
 
 ## Fantasize
 

@@ -1,0 +1,5 @@
+# Communication Convention
+
+## Slack
+
+## Email
