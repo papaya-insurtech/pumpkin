@@ -12,10 +12,10 @@
     - [ ] Architecture & Tech Stack Overview
     - [ ] Particular Repository Onboarding
 4. Product Onboarding
-5. OKR for Probation
-6. Onboarding Guide:
+5. Onboarding Guide:
     - [ ] Team Culture
     - [ ] Process
     - [ ] Handbook
+6. OKR/KPI for Probation
 7. One-on-One after the first 2 weeks
 8. One-on-One and Review Probation after 2 months

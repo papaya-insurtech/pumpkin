@@ -31,7 +31,7 @@
 - During the research process, if there are any difficult issues, immediately proactively seek help from others.
 - After researching and investigating, update the just-learned content to the Jira task. This step is very important to help anyone who reads the Jira task understand it.
 - After researching and investigating, if it is found that this task requires the support of others (e.g., need to create fields, create database columns, create permissions, create test data, confirm information with customers...), proactively create subtasks & checklists, and notify that person.
-- Provide an end-to-end solution: The solution must be clear, solve the task, and solve the use cases of the task. The solution must clearly demonstrate what needs to be done from start to finish. Avoid solutions that are too general or half-baked.
+- Provide an end-to-end solution: The solution must be clear, solve the task, and solve the use cases of the task. The solution must demonstrate what needs to be done from start to finish. Avoid solutions that are too general or half-baked.
 
 ## III. Solution Review
 
