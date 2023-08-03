@@ -88,4 +88,6 @@ const filteredNumbers2 = numbers.filter(num => num > 2);
 
 ## Type Convention
 
-- Using `type` over `interface`
+- Favor `type` over `interface`
+- Favor `string Unions` over `enum`
+- Favor [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html) over self define
