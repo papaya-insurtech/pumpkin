@@ -9,3 +9,7 @@
 ## [ReactNative Convention](./resources/ReactNative_Convention.md)
 
 ## [Hasura Convention](./resources/Hasura_Convention.md)
+
+## [GraphQL Convention](./resources/GraphQL_Convention.md)
+
+## [Nodejs Convention](./resources/Nodejs_Convention.md)
