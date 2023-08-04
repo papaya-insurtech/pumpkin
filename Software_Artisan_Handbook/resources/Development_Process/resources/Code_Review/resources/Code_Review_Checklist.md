@@ -16,23 +16,31 @@
 
 ## TypeScript Checklist
 
-- [ ] Follow the [TypeScript Coding Convention](../../../../Coding_Convention/resources/TypeScript_Convention.md)
+- [ ] Follow the [TypeScript Convention](../../../../Coding_Convention/resources/TypeScript_Convention.md)
 
 ## Serverless Checklist
 
-- [ ] Follow the [Serverless Coding Convention](../../../../Coding_Convention/resources/Serverless_Convention.md)
+- [ ] Follow the [Serverless Convention](../../../../Coding_Convention/resources/Serverless_Convention.md)
 - [ ] All new environment variables are updated to SSM Parameter Store.
 - [ ] The new serverless functions are only enabled in necessary environments.
 
 ## React Checklist
 
-- [ ] Follow the [React Coding Convention](../../../../Coding_Convention/resources/React_Convention.md)
+- [ ] Follow the [React Convention](../../../../Coding_Convention/resources/React_Convention.md)
 
 ## ReactNative Checklist
 
-- [ ] Follow the [ReactNative Coding Convention](../../../../Coding_Convention/resources/ReactNative_Convention.md)
+- [ ] Follow the [ReactNative Convention](../../../../Coding_Convention/resources/ReactNative_Convention.md)
 
 ## Hasura Checklist
 
-- [ ] Follow the [Hasura Coding Convention](../../../../Coding_Convention/resources/Hasura_Convention.md)
+- [ ] Follow the [Hasura Convention](../../../../Coding_Convention/resources/Hasura_Convention.md)
 - [ ] The PR has no Metadata changes that are not related to the Jira task.
+
+## GraphQL Checklist
+
+- [ ] Follow the [GraphQL Convention](../../../../Coding_Convention/resources/GraphQL_Convention.md)
+
+## Nodejs Checklist
+
+- [ ] Follow the [Nodejs Convention](../../../../Coding_Convention/resources/Nodejs_Convention.md)
