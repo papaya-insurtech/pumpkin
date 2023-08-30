@@ -54,7 +54,7 @@ We build a process and a team with the following mindset in our mind:
 - This is a Release Process for Software Artisan to align with the Development Process.
 - For more details, please refer to [Release Process](./resources/Release_Process.md).
 
-### [Communication Convention](./resources/Communication_Convention.md)
+### [Communication Convention](../Communication_Convention.md)
 
 - This is a Communication Convention for Software Artisan to align with the Development Process.
-- For more details, please refer to [Communication Convention](./resources/Communication_Convention.md).
+- For more details, please refer to [Communication Convention](../Communication_Convention.md).

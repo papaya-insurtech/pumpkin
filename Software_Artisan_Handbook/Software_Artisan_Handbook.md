@@ -15,3 +15,5 @@ This handbook is designed to be a comprehensive guide that covers everything fro
 ## [OS Softwares And Tools](./resources/OS_Softwares_And_Tools.md)
 
 ## [Coding Convention](./resources/Coding_Convention/Coding_Convention.md)
+
+## [Communication Convention](./resources/Communication_Convention.md)
