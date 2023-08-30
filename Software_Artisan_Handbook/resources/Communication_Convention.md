@@ -1,5 +1,7 @@
 # Communication Convention
 
+Read more on [how to communicate effectively as a developer](https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/)
+
 ## Face-to-Face
 
 - Prefer face-to-face communication for a quick and urgent discussion.
@@ -16,11 +18,11 @@
 - When replying to an old thread (everyone almost forgets about it), send it to the channel also.
 - When replying to a thread, If the reply is important to the whole channel, send it to the channel also.
 
-### Emoticon Using Guide
+### Emoji Using Guide
 
-#### Commonly Used Emoticons
+#### Commonly Used Emojis
 
-The following are the agreed-upon meanings for some commonly used emoticons:
+The following are the agreed-upon meanings for some commonly used emojis:
 
 - `:+1:` 👍 or `:ok:` 🆗  - Indicates agreement or approval.
 - `:eyes:` 👀 - Signifies that a message has been seen or acknowledged.
@@ -28,7 +30,7 @@ The following are the agreed-upon meanings for some commonly used emoticons:
 
 #### Usage Examples
 
-Here are some examples of how to use these emoticons in different situations:
+Here are some examples of how to use these emojis in different situations:
 
 1. Situation: Someone expresses an opinion.
    - To show agreement, use `:+1:` 👍 or `:ok:` 🆗
@@ -68,8 +70,10 @@ Always include a `greeting`, `sign-off`, and `signature` in the email, even if i
 
 ### During The Meeting
 
-- Everyone should focus on the meeting unless the host allows attendees to do other things.
+- Focus on the meeting unless the host allows attendees to do other things.
+- Do not use your smart phone.
 - The host should control the meeting time and discussion to follow the agenda and expected results.
+- Listen to the discussions even if it's not relevant to you (for now), it's a show of respect for others and always good to know more.
 
 ### After The Meeting
 
@@ -77,7 +81,7 @@ Always include a `greeting`, `sign-off`, and `signature` in the email, even if i
   - The topic of the meeting.
   - Expected results of the meeting.
   - Actual results of the meeting.
-  - Follow-up actions and tasks.
+  - Follow-up actions and tasks with person in charge for each.
 
 ### Online Meetings
 
