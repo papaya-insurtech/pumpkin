@@ -22,22 +22,22 @@
 
 The following are the agreed-upon meanings for some commonly used emoticons:
 
-- `:+1:` or `:ok:` - Indicates agreement or approval.
-- `:eyes:` - Signifies that a message has been seen or acknowledged.
-- `:white_check_mark:` - Represents completion or finishing of a task.
+- `:+1:` 👍 or `:ok:` 🆗  - Indicates agreement or approval.
+- `:eyes:` 👀 - Signifies that a message has been seen or acknowledged.
+- `:white_check_mark:` ✅ - Represents completion or finishing of a task.
 
 #### Usage Examples
 
 Here are some examples of how to use these emoticons in different situations:
 
 1. Situation: Someone expresses an opinion.
-   - To show agreement, use `:+1:` or `:ok:`
+   - To show agreement, use `:+1:` 👍 or `:ok:` 🆗
    - If you disagree, leave a comment.
-   - Alternatively, you can use `:eyes:` to indicate that you have seen the message but haven't had time to reply.
+   - Alternatively, you can use `:eyes:` 👀 to indicate that you have seen the message but haven't had time to reply.
 
 2. Situation: Task assignment or request.
-   - Use `:eyes:` to indicate that you have seen the task and have acknowledged it.
-   - Use `:white_check_mark:` when you have completed the task.
+   - Use `:eyes:` 👀 to indicate that you have seen the task and have acknowledged it.
+   - Use `:white_check_mark:` ✔ when you have completed the task.
 
 ## Email
 
