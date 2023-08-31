@@ -19,6 +19,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 13. Find Unused Exports: [iulian-radu-at.find-unused-exports](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.find-unused-exports)
 14. All in one i18n [lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
 15. Javascript and Typescript Nightly: [ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+16. Google translate: [hancel.google-translate](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)
 
 ## Testing
 
