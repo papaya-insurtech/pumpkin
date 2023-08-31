@@ -12,6 +12,7 @@ Read more on [how to communicate effectively as a developer](https://www.karlsut
 
 ### Messaging Guide
 
+- Be kind.
 - Favor public channels over private channels over direct messages.
 - Always mention the person you are replying to.
 - Always use threads when replying to a message.
