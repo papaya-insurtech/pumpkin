@@ -16,4 +16,6 @@ This handbook is designed to be a comprehensive guide that covers everything fro
 
 ## [Coding Convention](./resources/Coding_Convention/Coding_Convention.md)
 
+## [Coding Cheat Sheets](./resources/Coding_Cheat_Sheets/Coding_Cheat_Sheets.md)
+
 ## [Communication Convention](./resources/Communication_Convention.md)
