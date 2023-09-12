@@ -52,3 +52,19 @@
 
     export default { retryAsync };
     ```
+
+4. [Concurrency](http://bluebirdjs.com/docs/api/map.html)
+
+    ```JavaScript
+    import BPromise from "bluebird"
+    // Parallels exec asyncFunc with concurrency 5 instead of all at once
+    const results = await BPromise.map(listItems, asyncFunc, {concurrency: 5})
+    ```
+
+5. [Series](http://bluebirdjs.com/docs/api/promise.mapseries.html)
+
+    ```JavaScript
+    import BPromise from "bluebird"
+    // Executes asyncFunc for each item in listItems in series (one by one) instead of all at once
+    const results = await BPromise.mapSeries(listItems, asyncFunc)
+    ```
