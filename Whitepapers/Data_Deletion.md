@@ -17,8 +17,6 @@ While deletion requests are designed primarily to be used by Customers to manage
 
 ### Stage 2 - Soft Deletion
 
-The soft deletion process is performed by the system. During this process, the system marks the data as deleted and hides it from all users. The data remains in the system until the customer requests hard deletion. Audit logs are maintained for all deletion actions. Soft-deleted data can be recovered by the technical team with minimal effort.
-
 Soft deletion is the natural point in the process to provide a brief internal staging and recovery period to ensure that there is time to recover any data that has been marked for deletion by accident or error. The data remains in the system until the customer requests hard deletion. Audit logs are maintained for all deletion actions.
 
 ## Hard Deletion Data
