@@ -14,6 +14,10 @@
 - [ ] Using comments only to: explain WHY, Todo, and Warning.
 - [ ] The code is tested.
 
+## Security Checklist
+
+- [ ] Follow the [Security Cheat Sheets](../../../../Security/Security.md)
+
 ## TypeScript Checklist
 
 - [ ] Follow the [TypeScript Convention](../../../../Coding_Convention/resources/TypeScript_Convention.md)
