@@ -21,26 +21,11 @@ Read more on [how to communicate effectively as a developer](https://www.karlsut
 
 ### Emoji Using Guide
 
-#### Commonly Used Emojis
+DO NOT communicate using emojis. Emojis are not a language. They are a way to express emotions. Use emojis to express emotions, not to communicate. If you want to acknowledge something, type your texts. If you want to express yourself read the message, type "noted".
 
-The following are the agreed-upon meanings for some commonly used emojis:
-
-- `:+1:` 👍 or `:ok:` 🆗  - Indicates agreement or approval.
-- `:eyes:` 👀 - Signifies that a message has been seen or acknowledged.
-- `:white_check_mark:` ✅ - Represents completion or finishing of a task.
-
-#### Usage Examples
-
-Here are some examples of how to use these emojis in different situations:
-
-1. Situation: Someone expresses an opinion.
-   - To show agreement, use `:+1:` 👍 or `:ok:` 🆗
-   - If you disagree, leave a comment.
-   - Alternatively, you can use `:eyes:` 👀 to indicate that you have seen the message but haven't had time to reply.
-
-2. Situation: Task assignment or request.
-   - Use `:eyes:` 👀 to indicate that you have seen the task and have acknowledged it.
-   - Use `:white_check_mark:` ✔ when you have completed the task.
+Why abolishment of emojis from the last convention?
+1. Emojis cause the person at the other end confused to understand. There's no way to know who react to the message, and when. She/he has to hover over the emoji to see who react to the message. It's not a good way to communicate. Too much a burden for communication.
+2. It's not respectful.
 
 ## Email
 
@@ -72,7 +57,7 @@ Always include a `greeting`, `sign-off`, and `signature` in the email, even if i
 ### During The Meeting
 
 - Focus on the meeting unless the host allows attendees to do other things.
-- Do not use your smart phone.
+- Do not use your smartphone.
 - The host should control the meeting time and discussion to follow the agenda and expected results.
 - Listen to the discussions even if it's not relevant to you (for now), it's a show of respect for others and always good to know more.
 
