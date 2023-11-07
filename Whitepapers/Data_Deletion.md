@@ -1,4 +1,4 @@
-# Data Deletion
+# Papaya Insurtech Data Deletion Policy
 
 ## Introduction
 
