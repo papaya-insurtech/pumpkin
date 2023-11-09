@@ -21,11 +21,13 @@ Read more on [how to communicate effectively as a developer](https://www.karlsut
 
 ### Emoji Using Guide
 
-DO NOT communicate using emojis. Emojis are not a language. They are a way to express emotions. Use emojis to express emotions, not to communicate. If you want to acknowledge something, type your texts. If you want to express yourself read the message, type "noted".
+DO NOT communicate using emojis. Emojis are not a language. They are a way to express emotions. Use emojis to express emotions, not to communicate. If you want to acknowledge something, type your texts. If you want to express yourself read the message, and type "noted".
 
 Why abolishment of emojis from the last convention?
-1. Emojis cause the person at the other end confused to understand. There's no way to know who react to the message, and when. She/he has to hover over the emoji to see who react to the message. It's not a good way to communicate. Too much a burden for communication.
-2. It's not respectful.
+
+1. Emojis cause the person at the other end confused to understand. There's no way to know who react to the message, and when. She/he has to hover over the emoji to see who react to the message. It's not a good way to communicate. Too much of a burden for communication.
+2. Receivers of emoji reactions do not receive notifications, hence they don't know what happens.
+3. It's not respectful.
 
 ## Email
 
