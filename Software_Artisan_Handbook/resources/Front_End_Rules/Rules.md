@@ -36,6 +36,23 @@ const allClaims = (res.data?.claim_case_details).concat(
 
 ## React
 
+- Conditional rendering: use `&&` operator instead of ternary operator `? :` for conditional rendering. It's more readable and less error-prone. The only use case where `&&` is allowed is when there is only one condition.
+
+Example of **bad** usage of this rule
+
+```js
+<div onClick={() => claim != null && somethingBoolean && utils.calculateTat({ claim })}>TAT: {tat} hours.</div>
+```
+
+Example of **good** usage of this rule
+
+```js
+<div onClick={() => claim != null && utils.calculateTat({ claim })}>TAT: {tat} hours.</div>
+```
+
+- Use `<If>` component in complex conditional rendering. `<If>` component cannot remove null and undefined time from rendering children. It's perfectly safe, Typescript simply doesn't know. Normally using [jsx-control-statement](https://www.npmjs.com/package/jsx-control-statements) is enough but [it doesn't work well with Vite](https://github.com/vitejs/vite/discussions/7927).
+
+
 ## Ant Design
 
 ### Notifications
