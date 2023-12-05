@@ -10,28 +10,28 @@ Example of **bad** usage of this rule
 
 ```js
 const allClaims = (res.data?.claim_case_details ?? []).concat(
-      await getClaimCasesUntilEnough({
-        exportTime,
-        where,
-        total,
-        offset: countFetchItems,
-        updateProgress,
-      }),
-    );
+  await getClaimCasesUntilEnough({
+    exportTime,
+    where,
+    total,
+    offset: countFetchItems,
+    updateProgress,
+  }),
+);
 ```
 
 Example of **good** usage of this rule
 
 ```js
 const allClaims = (res.data?.claim_case_details).concat(
-      await getClaimCasesUntilEnough({
-        exportTime,
-        where,
-        total,
-        offset: countFetchItems,
-        updateProgress,
-      }),
-    ) ?? [];
+await getClaimCasesUntilEnough({
+  exportTime,
+  where,
+  total,
+  offset: countFetchItems,
+  updateProgress,
+}),
+) ?? [];
 ```
 
 ## React
@@ -52,7 +52,7 @@ Example of **good** usage of this rule
 
 - Use `<If>` component in complex conditional rendering. `<If>` component cannot remove null and undefined time from rendering children. It's perfectly safe, Typescript simply doesn't know. Normally using [jsx-control-statement](https://www.npmjs.com/package/jsx-control-statements) is enough but [it doesn't work well with Vite](https://github.com/vitejs/vite/discussions/7927).
 
-- Use react-router-dom's `<Link>` component instead of `<a>` tag for internal links. Avoid using any other components for hyperlinks such as
+- Use react-router-dom's `<Link>` component instead of `<a>` tag for links. Avoid using any other components for hyperlinks such as
 
 Example of **bad** usage of this rule
 
