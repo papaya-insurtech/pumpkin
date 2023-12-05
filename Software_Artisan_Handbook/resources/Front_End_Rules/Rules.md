@@ -52,6 +52,30 @@ Example of **good** usage of this rule
 
 - Use `<If>` component in complex conditional rendering. `<If>` component cannot remove null and undefined time from rendering children. It's perfectly safe, Typescript simply doesn't know. Normally using [jsx-control-statement](https://www.npmjs.com/package/jsx-control-statements) is enough but [it doesn't work well with Vite](https://github.com/vitejs/vite/discussions/7927).
 
+- Use react-router-dom's `<Link>` component instead of `<a>` tag for internal links. Avoid using any other components for hyperlinks such as
+
+Example of **bad** usage of this rule
+
+```js
+<div onClick={() => navigate("http://google.com")}>...</div>
+```
+
+- External links and links that open new tab should include this `<ExternalLink size={12} className="anticon" />`
+
+
+Example of **good** usage of this rule
+
+```js
+<Link
+  to={generatePath(PORTAL_PATH.CLAIM_CASE, { claimCaseId: emailClaimCase.claim_case.claim_case_id })}
+  target="_blank"
+  onClick={(e) => e.stopPropagation()}
+>
+  {emailClaimCase.claim_case.code} <ExternalLink size={12} className="anticon" />
+</Link>
+```
+
+
 
 ## Ant Design
 
