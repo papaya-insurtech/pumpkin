@@ -30,6 +30,7 @@
     "mattpocock.ts-error-translator",
     "byi8220.indented-block-highlighting",
     "bierner.markdown-mermaid",
-    "Gruntfuggly.todo-tree"
+    "Gruntfuggly.todo-tree",
+    "formulahendry.code-runner"
   ]
 }

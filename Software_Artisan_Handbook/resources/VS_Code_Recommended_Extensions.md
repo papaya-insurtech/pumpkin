@@ -24,6 +24,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 ## Testing
 
 1. Playwright [ms-playwright.playwright](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
+2. Run any piece of code inside VSCode: Code Runner [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ## Front-end must-have
 
