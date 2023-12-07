@@ -4,7 +4,18 @@
 
 - Do not use undefined as `value`, use null.
 - Do not use `any` type of committed code. Use `any` while you're still working on the code until you figure out the types. Typing things from the start is a good practice though.
-- [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) should be carefully put in the last part of an expression for readability.
+- [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) should be carefully put in the last part of an expression for readability and data fallback.
+
+Example of **bad** usage of this rule: often times data need to be present as nullish, removing nullish using fallback this way may cause unexpected side effects.
+```
+  const certificates = policyData?.mbal?.policyByPolicyNumber?.certificates ?? [];
+```
+
+Example of **bad** usage of this rule: unnecessary data fallback. `data` props of <TableList> component accepts nullish value (null or undefined) by default.
+
+```js
+<TableList data={certificate.insured_certificate?.claim_cases ?? []} />
+```
 
 Example of **bad** usage of this rule
 
