@@ -7,7 +7,7 @@
 - [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) should be carefully put in the last part of an expression for readability and data fallback.
 
 Example of **bad** usage of this rule: often times data need to be present as nullish, removing nullish using fallback this way may cause unexpected side effects.
-```
+```js
   const certificates = policyData?.mbal?.policyByPolicyNumber?.certificates ?? [];
 ```
 
@@ -43,6 +43,79 @@ await getClaimCasesUntilEnough({
   updateProgress,
 }),
 ) ?? [];
+```
+
+Example of **bad** usage of this rule (read the comment)
+
+```js
+const UploadClaimDocumentsScreen: FC = () => {
+  const { email } = useEmailDetail();
+  const { mailbox } = useParams<{ mailbox: string }>();
+
+  
+  return (
+    <div className={styles.mailBox}>
+      <div className={styles.createClaimScreen}>
+        <Flex gap={8} style={{ padding: "4px 8px" }}>
+          <Link
+            to={
+              mailbox == null
+                ? generatePath(PORTAL_PATH.MAILBOX.EMAIL_DETAIL_DEFAULT, {
+                    emailId: email?.id ?? "", // bad fallback, this will result page crash thrown by generatePath
+                  })
+                : generatePath(PORTAL_PATH.MAILBOX.EMAIL_DETAIL, {
+                    emailId: email?.id ?? "", // bad fallback, this will result page crash thrown by generatePath
+                    mailbox,
+                  })
+            }
+          >
+            <Button size="small" icon={<LeftOutlined />}>
+              Quay lại
+            </Button>
+          </Link>
+        </Flex>
+      </div>
+    </div>
+  );
+};
+```
+
+Example of **bad** usage of this rule: removing null value from email not only helps with bad fallback but is also useful when `email` object is further used in the code when expanded
+
+```js
+const UploadClaimDocumentsScreen: FC = () => {
+  const { email } = useEmailDetail();
+  const { mailbox } = useParams<{ mailbox: string }>();
+
+  if (email == null) return null;
+  return (
+    <div className={styles.mailBox}>
+      <div className={styles.createClaimScreen}>
+        <Flex gap={8} style={{ padding: "4px 8px" }}>
+          <Link
+            to={
+              mailbox == null
+                ? generatePath(PORTAL_PATH.MAILBOX.EMAIL_DETAIL_DEFAULT, {
+                    emailId: email.id,
+                  })
+                : generatePath(PORTAL_PATH.MAILBOX.EMAIL_DETAIL, {
+                    emailId: email.id,
+                    mailbox,
+                  })
+            }
+          >
+            <Button size="small" icon={<LeftOutlined />}>
+              Quay lại
+            </Button>
+            <Text ellipsis style={{ fontSize: 16, fontWeight: 700 }}>
+              {email.subject}
+            </Text>
+          </Link>
+        </Flex>
+      </div>
+    </div>
+  );
+};
 ```
 
 ## React
@@ -86,8 +159,6 @@ Example of **good** usage of this rule
 </Link>
 ```
 
-
-
 ## Ant Design
 
 ### Notifications
@@ -121,4 +192,3 @@ notificationApi.success({
     onClose: () => navigate(`${generatePath(PORTAL_PATH.CLAIM_CASE, { claimCaseId })}/${CLAIM_CASE_PATH.CLAIM_CASE_INFO}`),
   });
 ```
-
