@@ -4,6 +4,25 @@
 
 - Do not use undefined as `value`, use null.
 - Do not use `any` type of committed code. Use `any` while you're still working on the code until you figure out the types. Typing things from the start is a good practice though.
+- Always use spread operator instead of Array.concat()
+
+Example of **bad** usage of this rule: this causes `suggestedClaimCases` to be undefined when suggestedClaimCasesByClaimCodes is nullish.
+
+```js
+const suggestedClaimCasesByClaimCodes = useGetClaimByCodes({ emailDetailData: emailDetailData?.correspondence_emails_by_pk, detectedClaimCodes });
+const suggestedClaimCases = useGetClaimByCodes({ emailDetailData: emailDetailData?.correspondence_emails_by_pk, detectedPolicyNumbers });
+
+const suggestedClaimCases = uniqBy(suggestedClaimCasesByClaimCodes?.concat(suggestedClaimCases ?? []), "code");
+```
+
+Example of **good** usage of this rule
+
+```js
+const suggestedClaimCasesByClaimCodes = useGetClaimByCodes({ emailDetailData: emailDetailData?.correspondence_emails_by_pk, detectedClaimCodes });
+const suggestedClaimCases = useGetClaimByCodes({ emailDetailData: emailDetailData?.correspondence_emails_by_pk, detectedPolicyNumbers });
+const suggestedClaimCases = uniqBy([...(suggestedClaimCasesByClaimCodes ?? []), ...(suggestedClaimCases ?? [])], "code");
+```
+
 - [Nullish coalescing operator (??)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) should be carefully put in the last part of an expression for readability and data fallback.
 
 Example of **bad** usage of this rule: often times data need to be present as nullish, removing nullish using fallback this way may cause unexpected side effects.
@@ -84,10 +103,10 @@ Example of **bad** usage of this rule: removing null value from email not only h
 
 ```js
 const UploadClaimDocumentsScreen: FC = () => {
-  const { email } = useEmailDetail();
+  const { email, loading } = useEmailDetail();
   const { mailbox } = useParams<{ mailbox: string }>();
 
-  if (email == null) return null;
+  if (email == null) return <Spin spinning={loading} />;
   return (
     <div className={styles.mailBox}>
       <div className={styles.createClaimScreen}>
@@ -192,3 +211,25 @@ notificationApi.success({
     onClose: () => navigate(`${generatePath(PORTAL_PATH.CLAIM_CASE, { claimCaseId })}/${CLAIM_CASE_PATH.CLAIM_CASE_INFO}`),
   });
 ```
+
+
+## Apollo Client
+
+### Realtime
+
+Use Polling instead of Subscriptions for realtime data. Read more: https://www.apollographql.com/docs/react/data/subscriptions/#when-to-use-subscriptions
+
+Use Poll Interval with [ahooks's useDocumentVisibility](https://ahooks.js.org/hooks/use-document-visibility) to prevent over queried. This functionality is built into usePollInterval();
+
+```ts
+const {
+    data,
+    loading,
+  } = usePQuery(AllClaimCasesDocument, {
+    variables: {
+      where,
+    },
+    pollInterval: usePollInterval(POLL_INTERVAL_CONFIG),
+  });
+```
+
