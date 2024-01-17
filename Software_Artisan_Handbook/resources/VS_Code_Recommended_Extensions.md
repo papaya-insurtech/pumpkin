@@ -4,22 +4,23 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 
 ## Language support: Code and docs formater/checker/validator/linter
 
-1. Code Spell Checker: [streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Used for spell checking in our code (variable name, function name...). Works for camelCase and PascalCase too.
-2. Grammarly: [znck.grammarly](https://marketplace.visualstudio.com/items?itemName=znck.grammarly). Used for spell check and grammar check in our documents
-3. ESLint: [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-4. Prettier: [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-5. GraphQL: Language Feature Support: [GraphQL.vscode-graphql](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
-6. GraphQL: Syntax Highlighting: [GraphQL.vscode-graphql-syntax](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-syntax)
-7. GraphQL: Inline Operation Execution [GraphQL.vscode-graphql-execution](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-execution)
-8. YAML: [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-9. markdownlint: [DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-10. DotENV: [mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-11. Error Lens [usernamehw.errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-12. Auto Import: [steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
-13. Find Unused Exports: [iulian-radu-at.find-unused-exports](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.find-unused-exports)
-14. All in one i18n [lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
-15. Javascript and Typescript Nightly: [ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
-16. Google translate: [hancel.google-translate](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)
+1. Hasura [hasura.hasura-insights](https://marketplace.visualstudio.com/items?itemName=hasura.hasura-insights)
+2. Code Spell Checker: [streetsidesoftware.code-spell-checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker). Used for spell checking in our code (variable name, function name...). Works for camelCase and PascalCase too.
+3. Grammarly: [znck.grammarly](https://marketplace.visualstudio.com/items?itemName=znck.grammarly). Used for spell check and grammar check in our documents
+4. ESLint: [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+5. Prettier: [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+6. GraphQL: Language Feature Support: [GraphQL.vscode-graphql](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
+7. GraphQL: Syntax Highlighting: [GraphQL.vscode-graphql-syntax](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-syntax)
+8. GraphQL: Inline Operation Execution [GraphQL.vscode-graphql-execution](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql-execution)
+9. YAML: [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+10. markdownlint: [DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+11. DotENV: [mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+12. Error Lens [usernamehw.errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+13. Auto Import: [steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
+14. Find Unused Exports: [iulian-radu-at.find-unused-exports](https://marketplace.visualstudio.com/items?itemName=iulian-radu-at.find-unused-exports)
+15. All in one i18n [lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
+16. Javascript and Typescript Nightly: [ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
+17. Google translate: [hancel.google-translate](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)
 
 ## Testing
 

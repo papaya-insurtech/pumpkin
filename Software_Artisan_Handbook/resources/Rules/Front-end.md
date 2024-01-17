@@ -215,6 +215,27 @@ notificationApi.success({
 
 ## Apollo Client
 
+### Convention
+
+Declaring mutations:
+- Update queries must always be name `update${table_name}`. Object to be updated should always be name $input. Returning data should always be the updating fields to adhere to [Apollo Cache's update mechanism](https://www.apollographql.com/docs/react/data/mutations/#include-modified-objects-in-mutation-responses).
+
+```ts
+gql`
+  mutation updateCompanyCampusUser($id: uuid!, $input: company_campus_users_set_input!) {
+    update_company_campus_users_by_pk(pk_columns: { id: $id }, _set: $input) {
+      __typename
+    }
+  }
+`
+const [updateCompanyCampusUserMutation] = usePMutation(UpdateCompanyCampusUserDocument, {
+  onCompleted: () => {
+    notification.success({ message: "Cập nhật thành công" });
+  },
+  refetchQueries: ["getCompany"],
+});
+```
+
 ### Realtime
 
 Use Polling instead of Subscriptions for realtime data. Read more: https://www.apollographql.com/docs/react/data/subscriptions/#when-to-use-subscriptions
