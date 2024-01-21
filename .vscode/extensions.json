@@ -32,6 +32,7 @@
     "bierner.markdown-mermaid",
     "Gruntfuggly.todo-tree",
     "formulahendry.code-runner",
-    "HasuraHQ.hasura"
+    "HasuraHQ.hasura",
+    "yoavbls.pretty-ts-errors"
   ]
 }

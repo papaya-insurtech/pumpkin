@@ -21,6 +21,7 @@ Clone this repo. Open the extensions tab in VS Code (MacOS: ⇧⌘X, Windows: Ct
 15. All in one i18n [lokalise.i18n-ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
 16. Javascript and Typescript Nightly: [ms-vscode.vscode-typescript-next](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
 17. Google translate: [hancel.google-translate](https://marketplace.visualstudio.com/items?itemName=hancel.google-translate)
+18. Pretty Typescript Errors: [yoavbls.pretty-ts-errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
 
 ## Testing
 
