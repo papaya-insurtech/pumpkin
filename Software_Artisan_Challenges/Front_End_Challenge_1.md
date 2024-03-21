@@ -7,31 +7,31 @@
 
 ## Use case
 
-Build a web application to consume a Backend API.  
-You can choose any public API on the internet or if you can build your own API, it will be a big plus.
+Build a React Native application to consume a GraphQL API.  
+You can choose any public GraphQL API on the internet or if you can build your own API, it will be a big plus.
 
-There are some examples that you can choose:
+This is an example that you can choose:
 
 - [GraphQL - https://graphqlzero.almansi.me/](https://graphqlzero.almansi.me/)
-- [RESTful - https://any-api.com/](https://any-api.com/)
 
 Or you can also use other APIs that you found.
 
 The features should at least cover some basic features:
 
 - Authentication: you can use the auth from your chosen API or can also use a social auth like Facebook, Google...
-- Listing
+- Listing, Searching, Pagination (infinite loading)
 - Create
 - Update
 - Delete
 
 ## Technical requirements
 
-- Should be implemented using React & Hooks
-- Using TypeScript/ES6+
-- Consuming a GraphQL/RESTful API
+- Should be implemented using React Native (can use Expo) & Hooks
+- Using TypeScript with Strict Mode
+- Consuming a GraphQL API using Apollo Client
+- Writing some unit tests
 
 ## Submission
 
 - Push your project onto a GitHub repository
-- Deploy your app onto a platform of your choice
+- Propose a way to demo your app (e.g. using Apk, TestFlight, or even host a React Native Web)
