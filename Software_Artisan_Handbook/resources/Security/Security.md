@@ -1,5 +1,7 @@
 # Security
 
+## [SSDLC](./resources/SSDLC.md)
+
 ## [OWASP Top Ten 2021](./resources/OWASP_Top_Ten_2021.md)
 
 ## [Authentication Cheat Sheet](./resources/Authentication_Cheat_Sheet.md)
