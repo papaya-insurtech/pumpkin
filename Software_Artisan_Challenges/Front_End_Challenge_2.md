@@ -26,7 +26,7 @@ The features should at least cover some basic features:
 
 ## Technical requirements
 
-- Should be implemented using Next.js & Hooks
+- Should be implemented using React/Next.js & Hooks
 - Using TypeScript with Strict Mode
 - Consuming a GraphQL API using Apollo Client
 - Writing some unit tests
