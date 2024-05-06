@@ -18,7 +18,8 @@
 - deleted_at: Timestamp, nullable.
 
 ### Foreign keys
-- All foreign keys should be set to `restrict`, no exceptions under any circumsances.
+
+- All foreign keys should be set to `restrict` (do not use any other options), with no exceptions under any circumstances.
 
 ### Reading errors
 
@@ -30,7 +31,9 @@ This indicates the role does not have permission to read the table that relates 
 #### Select
 
 - Minimal for `Row select permissions`: filter out `deleted_at` records under `_and` for future expansion.
-
 ![Alt text](hasura-permissions-01.png)
+
+- Filter out `deleted` related objects to avoid access properties of null objects at runtime. This is due to the soft deletion of object relationship causing GraphQL does not recognize object as nullable.
+![Plan and Policy could be deleted](image.png)
 
 # GraphQL
