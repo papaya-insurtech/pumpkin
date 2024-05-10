@@ -34,7 +34,7 @@ Webhook (Optional):
 ## Technical requirements
 
 - The API system should be written in [TypeScript](https://www.typescriptlang.org/) with [Strict Mode](https://dev.to/jsdev/strict-mode-typescript-j8p) (you can pick any framework of your choice)
-- Should use [GraphQL](https://graphql.org/) with DataLoader pattern
+- Should use [GraphQL](https://graphql.org/) with [Apollo Server](https://www.apollographql.com/docs/apollo-server/)
 - Unit tests should be written and green
 
 ## Submission
