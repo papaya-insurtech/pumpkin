@@ -22,4 +22,21 @@
     });
     ```
 
-3. [Date FNS](https://date-fns.org/) has a lot of utility functions. Please search for them before implementing your own.
+3. Create a Date in specific timezone (ignore device/server timezone setting) with a Naive DateTime input
+
+    ```JavaScript
+    import { fromZonedTime } from "date-fns-tz";
+    // device/server timezone is Asia/Ho_Chi_Minh
+    
+    // Nave DateTime input without timezone
+    const input = "2025-01-01T00:00:00" 
+    // Create a Date object in device/server timezone
+    const localDate = new Date(input);
+    // Create a Date object in Asia/Singapore timezone
+    const usDate = fromZonedTime(input, 'Asia/Singapore'); 
+
+    console.log(localDate); // 2024-12-31T17:00:00.000Z => 2025-01-01T00:00:00+07:00
+    console.log(usDate); // 2024-12-31T16:00:00.000Z => 2025-01-01T00:00:00+08:00
+    ```
+
+4. [Date FNS](https://date-fns.org/) has a lot of utility functions. Please search for them before implementing your own.
