@@ -19,7 +19,7 @@
 
     ```JavaScript
     // Loop 5 times
-    [...new Array(5)].forEach((_, index) => console.log(index));
+    Array.from({ length: 5 }).forEach((_, index) => console.log(index));
 
     // Filter null/undefined objects from array. Becareful to use for Array that contains 0, false, ""
     const validPersonsOne = [null, undefined, { name: "John" }].filter(Boolean);
