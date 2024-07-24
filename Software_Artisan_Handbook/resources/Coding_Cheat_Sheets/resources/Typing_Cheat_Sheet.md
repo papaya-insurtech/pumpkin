@@ -25,7 +25,7 @@
         export const VALUES = ["Value1", "Value2"];
         
         // VALUE has type "Value"
-        export const VALUE = "Value";
+        export const VALUE = "Value" as const;
         // VALUES has type ("Value1" | "Value2")[]
         export const VALUES = ["Value1", "Value2"] as const;
     ```
