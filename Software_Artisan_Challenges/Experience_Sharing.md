@@ -4,7 +4,6 @@
 
 - Please provide an estimated timeline that you feel comfortable with.
 - This open assignment is designed to help us learn more about your experience, mindset, and problem-solving skills, allowing us to better prepare for the upcoming interview.
-- Feel free to use any format you prefer to share your insights.
 - If you have any issues, don't hesitate to contact us.
 
 ## Task
@@ -18,3 +17,8 @@ In your response, please cover:
 - The detailed solution you implemented and the reasoning behind your choice.
 - The results or improvements that followed after the solution was implemented.
 - How you identify the problem with numbers and how you measure the results.
+
+## Submission
+
+- Feel free to use any format you prefer to share your insights.
+- You can submit your files directly to us, via a link to a cloud storage service (Google Drive, OneDrive, etc.), or through a link to a public repository (GitHub, GitLab, etc.).
