@@ -3,7 +3,8 @@
 ## IDE
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
-2. *Do not use any other IDE.*
+2. [Cursor](https://www.cursor.com/)
+3. *Do not use any other IDE.*
 
 ## Chrome Extensions
 

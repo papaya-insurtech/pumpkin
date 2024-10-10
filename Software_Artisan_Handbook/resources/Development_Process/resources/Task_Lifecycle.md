@@ -40,6 +40,7 @@ This step is taken after completing research and coming up with a solution, imme
 - For familiar, repeated tasks with an available solution and document, skip this step.
 - For small, simple tasks with few side effects, the total time is about 2 hours: this step can be skipped if urgent or if the reviewer is busy, but it is still encouraged.
 - For complex tasks, it is necessary to write/illustrate the necessary information/diagrams and prepare related article/document links and organize a meeting to discuss together.
+- Always propose at least 2 solutions, and explain the pros and cons of each solution.
 
 ## IV. Coding
 

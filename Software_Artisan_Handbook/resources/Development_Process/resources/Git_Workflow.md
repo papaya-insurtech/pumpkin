@@ -31,29 +31,17 @@ These are our customizations from the Gitflow Workflow.
 We use multiple environment branches to map to different environments that are defined in [System Environment](./System_Environment.md).  
 Environment branches are long-lived branches.
 
-There are 4 types of environment branches:
+There are 2 types of environment branches:
 
 1. Staging
    - This branch is used to map to the Staging environment.
    - Most of the hotfixes will be done on this branch.
    - Changes on this branch will be merged into the `main` branch within a working day.
    - All other environment branches will be merged into this branch first if we want to release them to Prod.
-2. Quick
-   - This branch is used to map to the Quick environment.
-   - This branch is used for features/bugs that need to be released within 2-5 days.
-3. Sprint
-   - This branch is used to map to the Sprint environment.
-   - This branch is used for features/bugs in the active Sprint.
-   - We're using 2-week Sprints, so this branch will be released bi-weekly.
-4. Project (optional)
+2. Project
    - This branch is used to map to a Project environment.
    - This branch is used for features/bugs in a long-term project that may take several weeks to be done.
    - The release time will depend on the project plan.
-
-If there is a change that needs to be done in multiple environments, we will put it in the shortest release cycle first. And then merge it into the other environments.
-For example, if we have a change that needs to be done in the Sprint, Quick, and Project environments, we will put it in the Quick environment first.  
-`quick => staging`  
-`quick => project`
 
 #### 3. Feature Branches
 

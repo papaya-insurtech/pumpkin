@@ -34,6 +34,8 @@
 - [Python](https://www.python.org/)
 - [Pytorch](https://pytorch.org/)
 - [Keras](https://keras.io/)
+- [OpenAI](https://openai.com/)
+- [Vertex AI](https://cloud.google.com/vertex-ai)
 
 ## Infrastructure
 
@@ -47,10 +49,13 @@
 - [SNS](https://aws.amazon.com/sns/)
 - [SQS](https://aws.amazon.com/sqs/)
 - [Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)
+- [Hasura](https://hasura.io/)
+- [GCP](https://cloud.google.com/)
 
 ## Tools
 
-- [VS Code](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [Cursor](https://www.cursor.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/orgs/papaya-insurtech/repositories)
 - [Jira](https://papayainsurtech.atlassian.net/jira/software/projects)
