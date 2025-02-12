@@ -28,3 +28,8 @@
 4. [Iterms2](https://iterm2.com/)
 5. [oh-my-zsh](https://ohmyz.sh/)
 6. [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+## TS & JS Runtime
+
+1. [Bun](https://bun.sh/) (Using Brew to install Bun)
+2. Node.js (Using [NVM](https://github.com/nvm-sh/nvm) to install Node.js)
