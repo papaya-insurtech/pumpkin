@@ -1,4 +1,10 @@
-[Refetching queries in Apollo Client](https://www.apollographql.com/docs/react/data/refetching/)
+
+# Read official Apollo Client docs first
+
+1. [Updating local data](https://www.apollographql.com/docs/react/data/mutations#updating-local-data)
+2. [Refetching queries in Apollo Client](https://www.apollographql.com/docs/react/data/refetching/)
+
+# Insights
 
 Almost all the time, you will need to refetch queries after an update/insert mutation. The reason is the mutation will change the data on the server, and you need to update the cache to reflect the changes.
 
@@ -42,3 +48,5 @@ export default graphql(
 ```
 
 Using `getRefetchOperationNames([DocumentNode, string])` is safer than literal strings when query names are changed which may cause the refetches to fail.
+
+In case you're not sure what to refetch (e.g. you're not sure which queries are affected by the mutation), use: `active` in `refetchQueries` option.
