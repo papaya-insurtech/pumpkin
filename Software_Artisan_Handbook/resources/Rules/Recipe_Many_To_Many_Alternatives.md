@@ -42,3 +42,5 @@ export default graphql(
 ```
 
 Using `getRefetchOperationNames([DocumentNode, string])` is safer than literal strings when query names are changed which may cause the refetches to fail.
+
+In case you're not sure what to refetch (e.g. you're not sure which queries are affected by the mutation), use: `active` in `refetchQueries` option.

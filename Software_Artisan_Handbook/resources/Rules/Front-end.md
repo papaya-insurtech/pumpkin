@@ -269,7 +269,6 @@ const [updateCompanyCampusUserMutation] = usePMutation(UpdateCompanyCampusUserDo
   onCompleted: () => {
     notification.success({ message: "Cập nhật thành công" });
   },
-  refetchQueries: ["getCompany"],
 });
 ```
 
