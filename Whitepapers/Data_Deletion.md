@@ -41,8 +41,9 @@ Finally, cryptographic erasure of the deleted data may occur before the backup c
 
 ## Cloud Provider Data Deletion
 
-The Papaya System is hosted on AWS Cloud. For more information on data protection and compliance on AWS, refer to the following documentation:
+The Papaya System is hosted on AWS Cloud. For more information on compliance on AWS, refer to the following documentation:
 
-- [Data protection in Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/data-protection.html)
-- [Data protection in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/DataDurability.html)
-- [Navigating GDPR Compliance on AWS](https://docs.aws.amazon.com/whitepapers/latest/navigating-gdpr-compliance/welcome.html)
+- [Amazon EC2 Compliance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/compliance-validation.html)
+- [Amazon RDS Compliance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/RDS-compliance.html)
+- [Amazon EBS Compliance](https://docs.aws.amazon.com/ebs/latest/userguide/compliance-validation.html)
+- [Amazon S3 Compliance](https://docs.aws.amazon.com/AmazonS3/latest/userguide/s3-compliance.html)
