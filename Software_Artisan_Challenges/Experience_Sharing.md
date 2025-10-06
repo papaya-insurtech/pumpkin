@@ -5,6 +5,7 @@
 - Please provide an estimated timeline that you feel comfortable with.
 - This open assignment is designed to help us learn more about your experience, mindset, and problem-solving skills, allowing us to better prepare for the upcoming interview.
 - If you have any issues, don't hesitate to contact us.
+- Be specific: if you experienced a slow query, what is the query? What is the exact data it's fetching? How many bytes and rows the tables store? How long in milliseconds did the slow query take? If you improved the query, what *exactly* did you do?
 
 ## Task
 
