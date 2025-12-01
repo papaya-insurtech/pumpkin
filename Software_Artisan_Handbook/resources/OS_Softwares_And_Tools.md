@@ -28,6 +28,7 @@
 4. [Iterms2](https://iterm2.com/)
 5. [oh-my-zsh](https://ohmyz.sh/)
 6. [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+7. [Raycast](https://www.raycast.com)
 
 ## TS & JS Runtime
 
