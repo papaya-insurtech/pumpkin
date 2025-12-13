@@ -11,12 +11,15 @@
   - .catch, .then / try catch
   - Sleep
   - Parallel convention
-  - Async , Await
+  - Async / Await
 - Retry Convention.
   - Retry function
   - Retry SQS
   - Retry Hasura Trigger
 - Date Time Convention.
+  - Use native Date
+  - Use date-fns
+  - Use custom project utils that built on top of date-fns and Date
 - Localization Convention.
 - Logging Convention.
 - GraphQL codegen convention.

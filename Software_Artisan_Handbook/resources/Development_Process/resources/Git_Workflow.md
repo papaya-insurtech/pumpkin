@@ -31,18 +31,6 @@ These are our customizations from the Gitflow Workflow.
 We use multiple environment branches to map to different environments that are defined in [System Environment](./System_Environment.md).  
 Environment branches are long-lived branches.
 
-There are 2 types of environment branches:
-
-1. Staging
-   - This branch is used to map to the Staging environment.
-   - Most of the hotfixes will be done on this branch.
-   - Changes on this branch will be merged into the `main` branch within a working day.
-   - All other environment branches will be merged into this branch first if we want to release them to Prod.
-2. Project
-   - This branch is used to map to a Project environment.
-   - This branch is used for features/bugs in a long-term project that may take several weeks to be done.
-   - The release time will depend on the project plan.
-
 #### 3. Feature Branches
 
 These are the branches that we use to develop new features and enhancements.  

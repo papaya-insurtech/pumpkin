@@ -5,9 +5,8 @@
     - [ ] GitHub  
     - [ ] Slack
     - [ ] Jira
-    - [ ] GitHub Copilot
     - [ ] AWS
-    - [ ] Papaya Care Portal (PROD, UAT, DEV)
+    - [ ] Papaya Care Portal (PROD, UAT, DEV) / Papaya AI Portal
 3. Technical Onboarding:
     - [ ] Architecture & Tech Stack Overview
     - [ ] Particular Repository Onboarding

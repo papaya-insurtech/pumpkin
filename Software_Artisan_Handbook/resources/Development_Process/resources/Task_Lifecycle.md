@@ -2,7 +2,7 @@
 
 ## I. New Task
 
-- Make sure that every task with a lifecycle duration of 30 minutes or more is tracked on Jira. If not, request the task creator to create it.
+- Make sure that every task with a lifecycle duration of 30 minutes or more is tracked on Jira or other project management tools. If not, request the task creator to create it.
 - Make sure that every task has all the necessary components so that any Dev who reads it can understand what needs to be done:
   - **Name**: (required)
     The task name must be easy to understand (immediately know what the task is, and which module it belongs to...). If the name is unclear, request the task creator to rename it. Or rename the task yourself, after understanding the task.
@@ -44,17 +44,16 @@ This step is taken after completing research and coming up with a solution, imme
 
 ## IV. Coding
 
-- Create a feature branch (prefix `feature/`) (or bugfix branch `bugfix/`) from the branch of the Environment. If this is a hotfix, create a `hotfix/` branch from the `main`.
+- Create a feature branch (prefix `feat/`) (or bugfix branch `fix/`) from the branch of the Environment. If this is a hotfix, create a `hotfix/` branch from the `main`.
 - Must push code to GitHub every day, to avoid losing code.
 - Log work every day.
 - On the first push of code, immediately create a PR with the `Draft` status. Naming convention: `Draft: [Jira-issue-id] Name of PR` and set the PR as `Draft` in GitHub. Putting the Jira Id in the PR description (GitHub automatically put a reference Jira link into the Id).
-- All commits must ensure the correct convention: `[Jira-issue-id] commit message`. All commits must follow the convention, including commits that fix code review feedback.
 - Ensure that VSCode has all necessary extensions installed, such as ESLint and Prettier, to format code and catch code convention errors for standardization. The list of recommended extensions can be found in the [VSCode Recommended Extensions](../VS_Code_Recommended_Extensions.md).
 - When encountering difficulties during coding (e.g., taking more than 30 minutes to solve), immediately proactively seek help.
 - When writing code, ensure the following priorities:
-  - code runs correctly.
-  - code is clean, easy to read, and has correct conventions.
-  - code runs optimally.
+  - [1] code runs correctly.
+  - [2] code is clean, easy to read, and has correct conventions.
+  - [3] code runs optimally.
 - When writing code, pay attention to reviewing related old code to understand whether the code you are writing has any impact. When reusing someone else's code, read and understand it carefully, avoiding misuse.
 - When modifying someone else's code, always ask them first to understand it clearly.
 - When resolving conflicts during a merge/rebase, if there are related parts of others, seek support from the relevant person to avoid resolving conflict wrongly.

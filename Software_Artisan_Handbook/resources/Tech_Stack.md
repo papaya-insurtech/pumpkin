@@ -8,24 +8,23 @@
 - [Hasura](https://hasura.io/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [GraphQL Code Generator](https://graphql-code-generator.com/)
+- [gql.tada](https://gql-tada.0no.co/)
 
 ## Frontend
 
 - [React](https://reactjs.org/)
 - [Next.js](https://nextjs.org/)
 - [Apollo Client](https://www.apollographql.com/docs/react/)
-- [GraphQL Code Generator](https://graphql-code-generator.com/)
+- [gql.tada](https://gql-tada.0no.co/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Ant Design](https://ant.design/)
-- [Vercel](https://vercel.com/)
 
 ## Mobile
 
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 - [Apollo Client](https://www.apollographql.com/docs/react/)
-- [GraphQL Code Generator](https://graphql-code-generator.com/)
+- [gql.tada](https://gql-tada.0no.co/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Native Paper](https://callstack.github.io/react-native-paper/)
 
@@ -36,25 +35,24 @@
 - [Keras](https://keras.io/)
 - [OpenAI](https://openai.com/)
 - [Vertex AI](https://cloud.google.com/vertex-ai)
+- [Gemini API](https://ai.google.dev/gemini-api/docs)
 
 ## Infrastructure
 
 - [AWS](https://aws.amazon.com/)
-- [Vercel](https://vercel.com/)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
 - [Lambda](https://aws.amazon.com/lambda/)
 - [Serverless Framework](https://www.serverless.com/)
 - [ECS](https://aws.amazon.com/ecs/)
 - [EC2](https://aws.amazon.com/ec2/)
-- [Aurora](https://aws.amazon.com/rds/aurora/)
 - [SNS](https://aws.amazon.com/sns/)
 - [SQS](https://aws.amazon.com/sqs/)
-- [Event-Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture)
+- [AWS Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
 - [Hasura](https://hasura.io/)
 - [GCP](https://cloud.google.com/)
 
 ## Tools
 
-- [VSCode](https://code.visualstudio.com/)
 - [Cursor](https://www.cursor.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/orgs/papaya-insurtech/repositories)
