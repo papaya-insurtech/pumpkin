@@ -43,6 +43,11 @@ To ensure that code review is effective, it is important to follow certain best 
 
 - **Be consistent:** Code review should be conducted consistently across the entire codebase, with the same standards and best practices applied to all code.
 
+## [Reviewee Convention](./resources/Reviewee_Convention.md)
+
+Developers should follow this convention when creating Pull Requests to ensure a smooth review process.
+For more details, please refer to [Reviewee Convention](./resources/Reviewee_Convention.md).
+
 ## [Code Review Checklist](./resources/Code_Review_Checklist.md)
 
 This checklist can be used to help ensure that code review is conducted effectively and efficiently.
