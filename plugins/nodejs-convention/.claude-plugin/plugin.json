@@ -1,0 +1,6 @@
+{
+  "name": "nodejs-convention",
+  "description": "Node.js error handling, promises, retry, logging, and date-time conventions",
+  "version": "1.0.0",
+  "skills": ["skills/nodejs-convention/SKILL.md"]
+}

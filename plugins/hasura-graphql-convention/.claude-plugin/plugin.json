@@ -1,0 +1,6 @@
+{
+  "name": "hasura-graphql-convention",
+  "description": "Hasura database, permissions, and GraphQL conventions",
+  "version": "1.0.0",
+  "skills": ["skills/hasura-graphql-convention/SKILL.md"]
+}

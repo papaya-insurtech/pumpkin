@@ -1,5 +1,10 @@
 # Software and Tools
 
+## AI Tools
+
+1. [Claude Code](https://code.claude.com/) -- CLI tool for coding, git, tests, PRs, automation. Install: `curl -fsSL https://claude.ai/install.sh | bash` (macOS/Linux) or `winget install Anthropic.ClaudeCode` (Windows). Run `claude` in any project directory.
+2. [Claude Desktop](https://claude.ai/download) -- Desktop app for Claude Chat and Claude Cowork. Download for macOS/Windows.
+
 ## IDE
 
 1. [Visual Studio Code](https://code.visualstudio.com/)
@@ -28,7 +33,7 @@
 4. [Iterms2](https://iterm2.com/)
 5. [oh-my-zsh](https://ohmyz.sh/)
 6. [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-7. [Raycast](https://www.raycast.com) => Supper useful
+7. [Raycast](https://www.raycast.com)
 
 ## TS & JS Runtime
 

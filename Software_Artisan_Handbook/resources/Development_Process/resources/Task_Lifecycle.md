@@ -1,87 +1,101 @@
 # Task Lifecycle
 
+Each phase describes the collaboration between the engineer (director/reviewer) and AI agents (executors). The engineer owns the task; agents accelerate execution.
+
 ## I. New Task
 
-- Make sure that every task with a lifecycle duration of 30 minutes or more is tracked on Jira or other project management tools. If not, request the task creator to create it.
-- Make sure that every task has all the necessary components so that any Dev who reads it can understand what needs to be done:
-  - **Name**: (required)
-    The task name must be easy to understand (immediately know what the task is, and which module it belongs to...). If the name is unclear, request the task creator to rename it. Or rename the task yourself, after understanding the task.
+- Ensure every task with a lifecycle duration of 30 minutes or more is tracked on Jira or other project management tools. If not, request the task creator to create it.
+- Ensure every task has all necessary components so that any engineer or agent reading it can understand what needs to be done:
+  - **Name**: (required) -- must be easy to understand (immediately know what the task is and which module it belongs to). If unclear, request the task creator to rename it or rename it yourself after understanding.
   - **Description**: (required)
-    1. The description should cover at least two questions: What? Why? Especially the WHY part is very important but often overlooked.
-    2. The task creator may provide When and How. Dev needs to be aware to clarify What and Why to validate When and How.
-    3. If the description is difficult to understand or lacks information, request the task creator to add more information.
-    4. Common information in Description:
-       1. Which module
-       2. Which customer
-       3. Which user role
-       4. Domain knowledge if any
-       5. Use cases
-       6. Other related information
+    1. Must cover at least: What? Why? The WHY is critical but often overlooked.
+    2. The task creator may provide When and How. The engineer must clarify What and Why to validate When and How.
+    3. If the description is unclear or lacks information, request more from the task creator.
+    4. Common description elements: module, customer, user role, domain knowledge, use cases, related information.
   - **Priority** (required)
-  - **Due date** (required) - Due date is the date the task is deployed or released (depending on requirements), each Dev must ensure that their task meets the Due Date on time.
-  - **Env** (required) (For more information, see [System Environment](System_Environment.md))
-  - **UI** - Link to accompanying interface if any
+  - **Due date** (required) -- the date the task is deployed or released.
+  - **Env** (required) -- see [System Environment](System_Environment.md).
+  - **UI** -- link to accompanying interface if any.
   - **Related tasks**
-  - **References resources**
-- When you see a task with problems, you can give feedback to the task creator or raise it to the team for discussion.
+  - **Reference resources**
+- When you see a task with problems, give feedback to the task creator or raise it to the team.
+
+**Agent role in this phase:** Use **Claude Chat** to quickly understand unfamiliar domain concepts or technologies referenced in the task. Paste the Jira task description and ask Claude to identify ambiguities or missing information.
 
 ## II. Research / Investigate
 
-- For all tasks, it is necessary to have a step of understanding the task, and conducting research for additional information and knowledge if necessary. This step can be quick or slow depending on the task. This is the most important step and should not be skipped and jumping into code immediately. For small tasks, this step can be done quickly.
-- During the research process, if there are any difficult issues, immediately proactively seek help from others.
-- After researching and investigating, update the just-learned content to the Jira task. This step is very important to help anyone who reads the Jira task understand it.
-- After researching and investigating, if it is found that this task requires the support of others (e.g., need to create fields, create database columns, create permissions, create test data, confirm information with customers...), proactively create subtasks & checklists, and notify that person.
-- Provide an end-to-end solution: The solution must be clear, solve the task, and solve the use cases of the task. The solution must demonstrate what needs to be done from start to finish. Avoid solutions that are too general or half-baked.
+- For all tasks, understand the task and conduct research before coding. This is the most important step -- do not skip it and jump into code immediately.
+- During research, if there are difficult issues, immediately seek help from others.
+- After researching, update the learned content to the Jira task so anyone reading it can understand.
+- If the task requires support from others (database fields, permissions, test data, customer confirmation), proactively create subtasks and notify the relevant person.
+- Provide an end-to-end solution that is clear, solves the task, and covers all use cases.
+
+**Agent role in this phase:**
+- Use **Claude Chat** to research technologies, explore solutions, and brainstorm approaches.
+- Use **Claude Cowork** to analyze requirements, draft solution proposals, and create diagrams.
+- Use **Claude Code** to explore the codebase: `"Find all places where X is used"`, `"How does the Y module handle Z?"`.
 
 ## III. Solution Review
 
-This step is taken after completing research and coming up with a solution, immediately seeking peer/leader review and confirmation. This step helps everyone understand how this task will be performed, any potential side effects, whether the solution is appropriate, and whether there is any conflict with other parts of the system or other tasks.
+After completing research and forming a solution, immediately seek peer/leader review. This step ensures everyone understands the approach, identifies potential side effects, and catches conflicts with other system parts.
 
-- For familiar, repeated tasks with an available solution and document, skip this step.
-- For small, simple tasks with few side effects, the total time is about 2 hours: this step can be skipped if urgent or if the reviewer is busy, but it is still encouraged.
-- For complex tasks, it is necessary to write/illustrate the necessary information/diagrams and prepare related article/document links and organize a meeting to discuss together.
-- Always propose at least 2 solutions, and explain the pros and cons of each solution.
+- For familiar, repeated tasks with available solutions, skip this step.
+- For small, simple tasks (total time ~2 hours), this step can be skipped if urgent, but is still encouraged.
+- For complex tasks, write/illustrate diagrams and prepare related links, then organize a discussion.
+- Always propose at least 2 solutions with pros and cons.
+
+**Agent role in this phase:** Use **Claude Cowork** to draft solution comparison documents. Use **Claude Chat** to pressure-test your solution by asking it to find flaws.
 
 ## IV. Coding
 
-- Create a feature branch (prefix `feat/`) (or bugfix branch `fix/`) from the branch of the Environment. If this is a hotfix, create a `hotfix/` branch from the `main`.
-- Must push code to GitHub every day, to avoid losing code.
-- Log work every day.
-- On the first push of code, immediately create a PR with the `Draft` status. Naming convention: `Draft: [Jira-issue-id] Name of PR` and set the PR as `Draft` in GitHub. Putting the Jira Id in the PR description (GitHub automatically put a reference Jira link into the Id).
-- Ensure that VSCode has all necessary extensions installed, such as ESLint and Prettier, to format code and catch code convention errors for standardization. The list of recommended extensions can be found in the [VSCode Recommended Extensions](../VS_Code_Recommended_Extensions.md).
-- When encountering difficulties during coding (e.g., taking more than 30 minutes to solve), immediately proactively seek help.
-- When writing code, ensure the following priorities:
-  - [1] code runs correctly.
-  - [2] code is clean, easy to read, and has correct conventions.
-  - [3] code runs optimally.
-- When writing code, pay attention to reviewing related old code to understand whether the code you are writing has any impact. When reusing someone else's code, read and understand it carefully, avoiding misuse.
-- When modifying someone else's code, always ask them first to understand it clearly.
-- When resolving conflicts during a merge/rebase, if there are related parts of others, seek support from the relevant person to avoid resolving conflict wrongly.
+- Create a feature branch (`feat/`), bugfix branch (`fix/`), or hotfix branch (`hotfix/`) from the appropriate environment branch.
+- Push code to GitHub daily to avoid losing code.
+- Log work daily.
+- On the first push, create a PR with `Draft` status. Naming: `Draft: [Jira-issue-id] Name of PR`. Include the Jira ID in the PR description.
+- When encountering difficulties (more than 30 minutes stuck), immediately seek help.
+- Code priorities:
+  - [1] Code runs correctly.
+  - [2] Code is clean, readable, follows conventions.
+  - [3] Code runs optimally.
+- Review related old code to understand potential impact. When reusing others' code, read and understand it. When modifying others' code, ask them first.
+- When resolving merge conflicts that involve others' code, seek support from the relevant person.
+
+**Agent role in this phase:**
+- Use **Claude Code** as the primary coding tool. Direct it with specific tasks: `"Implement the claim case creation form following the pattern in ExistingScreen.tsx"`.
+- Ensure Claude Code has convention skills installed: `/plugin install typescript-convention@papaya-pumpkin`.
+- Use **Plan Mode** for complex changes: let Claude Code explore, plan, then execute.
+- Review all generated code before committing. Watch for hallucinated APIs and scope creep. See [Reviewing AI Generated Code](Code_Review/resources/Reviewing_AI_Generated_Code.md).
 
 ## V. Testing
 
-- Must self-test all use cases and all main flows of the task.
-- Must re-test other features if the code is related.
-- Update How to test in Jira task if there are special notes when testing the task.
-- If some necessary test data need to be created but you don't know how to create it, ask QA/QC or the task creator for help.
-- If there is a merge conflict, after resolving the conflict, we must re-test the related feature to ensure it works correctly.
+- Self-test all use cases and main flows.
+- Re-test related features if code touches shared areas.
+- Update "How to Test" in Jira if there are special testing notes.
+- If test data is needed, ask QA/QC or the task creator.
+- After resolving merge conflicts, re-test related features.
+
+**Agent role in this phase:** Use **Claude Code** to write and run tests: `"Write unit tests for the calculateTat function"`, `"Run bun test and fix any failures"`.
 
 ## VI. Code Review
 
-- Update the name of the PR, and remove the Draft status.
-- Self-review the PR and your code changes. Remove any obvious mistakes such as `console.log`, file name typos, forgot code push, etc.
-- Remind the reviewer daily for the PR to be reviewed.
-- If this is an urgent task, clearly state the importance/priority, deadline of the task, and consequences if the task is late completed so that the reviewer prioritizes reviewing. Raise to the team if the task shows signs of delay.
+- Update the PR name and remove the Draft status.
+- Self-review the PR. Remove obvious mistakes: `console.log`, typos, missed file pushes.
+- Remind the reviewer daily.
+- For urgent tasks, clearly state the priority, deadline, and consequences of delay.
+
+**Agent role in this phase:**
+- Use **Claude Code** to self-review: `"Review this PR diff for convention violations, potential bugs, and unnecessary changes"`.
+- In the PR description, document what agent instructions were given so reviewers understand the intent. See [Reviewee Convention](Code_Review/resources/Reviewee_Convention.md).
 
 ## VII. Deploying
 
-- Proactively monitor the status of a task whether it has been deployed or not. If not deployed, push the person in charge of deployment.
-- Push and remind deployment similar to Code Review above.
+- Proactively monitor deployment status. If not deployed, push the person in charge.
+- Push and remind similar to Code Review.
 
 ## VIII. Releasing
 
-- Must know whether the task needs to be released urgently or not.
-- Push and remind release similar to Code Review and Deploy.
-- After the task has been successfully released, update the status of the Jira Task to Done.
+- Know whether the task needs urgent release.
+- Push and remind similar to Code Review and Deploy.
+- After successful release, update the Jira task status to Done.
 
-_**Dev must always be the one who understands their task the most and is also the highest responsible person for their task.**_
+_**The engineer is always the person who understands their task the most and bears the highest responsibility for it -- regardless of which agents helped execute it.**_

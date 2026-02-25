@@ -1,5 +1,12 @@
 # Tech Stack Reference
 
+## AI Tools
+
+- [Claude Code](https://code.claude.com/) -- CLI tool for coding, git, PRs, tests, and automation. Primary coding tool.
+- [Claude Chat](https://claude.ai/) -- Research, learning, brainstorming, rubber-ducking.
+- [Claude Desktop](https://claude.ai/download) -- Desktop app for Claude Chat and Claude Cowork.
+- [Claude Cowork](https://support.claude.com/en/articles/13345190-getting-started-with-cowork) -- Documentation, requirements analysis, non-code tasks (via Claude Desktop > Cowork tab).
+
 ## Backend
 
 - [Node.js](https://nodejs.org/en/)
@@ -53,6 +60,7 @@
 
 ## Tools
 
+- [Claude Code](https://code.claude.com/) -- Primary coding and git tool
 - [Cursor](https://www.cursor.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/orgs/papaya-insurtech/repositories)

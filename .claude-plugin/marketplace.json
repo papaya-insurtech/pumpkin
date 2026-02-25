@@ -1,0 +1,37 @@
+{
+  "name": "papaya-pumpkin",
+  "description": "Papaya Insurtech coding convention skills for Claude Code",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "typescript-convention",
+      "path": "plugins/typescript-convention",
+      "description": "TypeScript naming, syntax, logic, and type conventions for Papaya projects"
+    },
+    {
+      "name": "react-convention",
+      "path": "plugins/react-convention",
+      "description": "React component, hooks, conditional rendering, and routing conventions"
+    },
+    {
+      "name": "react-native-convention",
+      "path": "plugins/react-native-convention",
+      "description": "React Native conventions for Papaya mobile apps"
+    },
+    {
+      "name": "hasura-graphql-convention",
+      "path": "plugins/hasura-graphql-convention",
+      "description": "Hasura database, permissions, and GraphQL conventions"
+    },
+    {
+      "name": "nodejs-convention",
+      "path": "plugins/nodejs-convention",
+      "description": "Node.js error handling, promises, retry, logging, and date-time conventions"
+    },
+    {
+      "name": "ant-design-convention",
+      "path": "plugins/ant-design-convention",
+      "description": "Ant Design notification, modal, and component usage conventions"
+    }
+  ]
+}

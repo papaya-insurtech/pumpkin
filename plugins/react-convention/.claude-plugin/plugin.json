@@ -1,0 +1,6 @@
+{
+  "name": "react-convention",
+  "description": "React component, hooks, conditional rendering, and routing conventions",
+  "version": "1.0.0",
+  "skills": ["skills/react-convention/SKILL.md"]
+}

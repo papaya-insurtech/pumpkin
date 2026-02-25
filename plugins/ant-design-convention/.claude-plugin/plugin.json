@@ -1,0 +1,6 @@
+{
+  "name": "ant-design-convention",
+  "description": "Ant Design notification, modal, and component usage conventions",
+  "version": "1.0.0",
+  "skills": ["skills/ant-design-convention/SKILL.md"]
+}

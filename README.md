@@ -1,6 +1,24 @@
 # README
 
-This is our Knowledge Hub that we can share between artisans and the world
+This is our Knowledge Hub that we can share between artisans and the world.
+
+## Claude Code Skills Marketplace
+
+This repository serves as a **Claude Code plugin marketplace** for Papaya coding conventions. Install skills via:
+
+```bash
+/plugin marketplace add papaya-insurtech/pumpkin
+/plugin install typescript-convention@papaya-pumpkin
+```
+
+See [marketplace catalog](.claude-plugin/marketplace.json) for all available skills.
+
+## Structure
+
+- [Software Artisan Handbook](Software_Artisan_Handbook/Software_Artisan_Handbook.md) -- Development process, AI agent workflow, tools, domain knowledge
+- [Onboarding Guide](Onboarding_New_Software_Artisan/Onboarding_Guide.md) -- New engineer onboarding
+- [Convention Skills](plugins/) -- Claude Code convention skills (typescript, react, hasura, etc.)
+- [Software Artisan Challenges](Software_Artisan_Challenges/) -- Coding challenges
 
 ## Wish List
 
@@ -14,23 +32,13 @@ This is our Knowledge Hub that we can share between artisans and the world
   - How to make technical decisions yourself
   - [Engineering Ladders](https://github.com/jorgef/engineeringladders)
   - [Jira - Process Issues with Smart Commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
-- Coding conventions
-  - [Don't use short-circuiting when you want an if statement](https://www.codereadability.com/dont-use-short-circuiting-when-you-want-an-if-statement/)
-- Style guides
 - Best practices
   - Typescript
   - React
   - GraphQL
-  - Choosing the write node modules
+  - Choosing the right node modules
   - Troubleshooting
-  - Searching for solutions
-    - Google
-    - GitHub
-    - Stackoverflow
-- Git
-  - [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
-  - Pull Requests
-  - [Cheat Sheet](Software_Artisan_Handbook/resources/Git_Cheat_Sheets/Git_Cheat_Sheets.md)
+  - AI-agent-first workflows
 - Patterns
   - Hasura
   - Typescript
@@ -43,10 +51,10 @@ This is our Knowledge Hub that we can share between artisans and the world
   - Serverless
 - IDE
   - VSCode set up
-  - [Extensions](Software_Artisan_Handbook/VS_Code_Recommended_Extensions.md)
+  - [Extensions](Software_Artisan_Handbook/resources/VS_Code_Recommended_Extensions.md)
 - Local set up
   - CLIs
-  - [Software & Tools](Software_Artisan_Handbook/OS_Softwares_And_Tools.md)
+  - [Software & Tools](Software_Artisan_Handbook/resources/OS_Softwares_And_Tools.md)
 - Slack
   - Tech channels
     - [Tracking releases of repositories in use or great interest (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
@@ -58,8 +66,6 @@ This is our Knowledge Hub that we can share between artisans and the world
   - CI/CD
   - Peer Demo
   - Product Manager Demo
-- Cheatsheets
-- Awesome lists
 
 ## Routines
 

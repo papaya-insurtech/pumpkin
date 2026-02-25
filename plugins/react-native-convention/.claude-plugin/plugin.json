@@ -1,0 +1,6 @@
+{
+  "name": "react-native-convention",
+  "description": "React Native conventions for Papaya mobile apps",
+  "version": "1.0.0",
+  "skills": ["skills/react-native-convention/SKILL.md"]
+}

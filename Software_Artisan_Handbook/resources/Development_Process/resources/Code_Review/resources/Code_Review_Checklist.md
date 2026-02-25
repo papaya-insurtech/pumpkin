@@ -5,7 +5,7 @@
 - [ ] The PR is aligned with the solution in the Jira task.
 - [ ] The PR has the correct name format.
 - [ ] The commits have the correct message format.
-- [ ] The PR has the correct merge Branch.
+- [ ] The PR has the correct merge branch.
 - [ ] The PR has no changes that are not related to the Jira task.
 - [ ] The PR has no merge conflicts.
 - [ ] Naming conventions are followed.
@@ -14,33 +14,43 @@
 - [ ] Using comments only to: explain WHY, Todo, and Warning.
 - [ ] The code is tested.
 
+## AI-Generated Code Checklist
+
+- [ ] No hallucinated APIs -- all functions, methods, and imports actually exist and have the correct signatures.
+- [ ] No scope creep -- the agent didn't "improve" code beyond what was asked (extra error handling, refactoring adjacent code, adding comments).
+- [ ] Convention skill compliance -- code follows installed team convention skills (typescript-convention, react-convention, etc.).
+- [ ] No hardcoded or placeholder values -- the agent didn't leave TODO comments, placeholder strings, or mock data.
+- [ ] Business logic correctness -- the agent understood the domain correctly (insurance terms, claim flows, etc.).
+- [ ] Security review -- no new vulnerabilities introduced (SQL injection via Hasura, XSS, exposed secrets).
+- [ ] Agent instructions documented -- the PR description explains what the agent was directed to do.
+
 ## TypeScript Checklist
 
-- [ ] Follow the [TypeScript Convention](../../../../Coding_Convention/resources/TypeScript_Convention.md)
+- [ ] Follow the `typescript-convention` skill conventions.
 
 ## Serverless Checklist
 
-- [ ] Follow the [Serverless Convention](../../../../Coding_Convention/resources/Serverless_Convention.md)
+- [ ] Follow the `serverless-convention` skill conventions.
 - [ ] All new environment variables are updated to SSM Parameter Store.
 - [ ] The new serverless functions are only enabled in necessary environments.
 
 ## React Checklist
 
-- [ ] Follow the [React Convention](../../../../Coding_Convention/resources/React_Convention.md)
+- [ ] Follow the `react-convention` skill conventions.
 
 ## ReactNative Checklist
 
-- [ ] Follow the [ReactNative Convention](../../../../Coding_Convention/resources/ReactNative_Convention.md)
+- [ ] Follow the `react-native-convention` skill conventions.
 
 ## Hasura Checklist
 
-- [ ] Follow the [Hasura Convention](../../../../Coding_Convention/resources/Hasura_Convention.md)
+- [ ] Follow the `hasura-graphql-convention` skill conventions.
 - [ ] The PR has no Metadata changes that are not related to the Jira task.
 
 ## GraphQL Checklist
 
-- [ ] Follow the [GraphQL Convention](../../../../Coding_Convention/resources/GraphQL_Convention.md)
+- [ ] Follow the `graphql-convention` skill conventions.
 
 ## Nodejs Checklist
 
-- [ ] Follow the [Nodejs Convention](../../../../Coding_Convention/resources/Nodejs_Convention.md)
+- [ ] Follow the `nodejs-convention` skill conventions.

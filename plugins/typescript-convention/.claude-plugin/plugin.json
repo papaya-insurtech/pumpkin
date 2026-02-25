@@ -1,0 +1,6 @@
+{
+  "name": "typescript-convention",
+  "description": "TypeScript naming, syntax, logic, and type conventions for Papaya projects",
+  "version": "1.0.0",
+  "skills": ["skills/typescript-convention/SKILL.md"]
+}
