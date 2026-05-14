@@ -18,7 +18,7 @@ Không có đậu/rớt. Chúng tôi lắng nghe **sự cụ thể, sự thành 
 **Cho ứng viên:**
 
 - Trả lời bằng ngôn ngữ nào bạn thấy thoải mái (tiếng Việt hay tiếng Anh đều được).
-- Chọn những câu bạn thấy hứng thú — không cần trả lời hết 12 câu.
+- Chọn những câu bạn thấy hứng thú — không cần trả lời hết 13 câu.
 - Luôn giải thích *tại sao*. Lý do quan trọng hơn lựa chọn.
 - Đừng diễn. Chúng tôi nhận ra ngay câu trả lời được uốn nắn để chiều người phỏng vấn thay vì thành thật.
 
@@ -56,29 +56,33 @@ Chúng tôi gom câu hỏi theo tải nhận thức, không phải theo mức đ
 
 ## Khởi động
 
-### Q1 — Bạn thích ở đâu nhất? · `[S]`
+### Q1 — Một con người bất kỳ thích ở đâu nhất trong phần lớn cuộc đời? · `[S]`
 
 > Người thích ở đâu nhất?
 
+**Lưu ý:** Câu này **không** hỏi địa điểm yêu thích của riêng bạn. Câu này hỏi về **một con người bất kỳ**: nơi mà họ thật sự ở **nhiều nhất, thoải mái nhất, trong phần lớn cuộc đời** của họ là đâu? Cần khái quát hoá về bản chất con người, không kể chuyện cá nhân.
+
 **Chúng tôi muốn nghe gì**
 
-Một địa điểm cụ thể, kèm *lý do*. Lý do thuộc về giác quan, cảm xúc hay quan hệ đều được. Đây là phép thử về sự tự nhận thức: bạn có thực sự biết điều gì nuôi dưỡng mình, hay bạn đang mô tả một nơi mà bạn nghĩ nghe có vẻ hay?
+Một quan sát về cách con người thực sự sống, không phải một danh sách điểm đến trong mơ. Câu trả lời thuyết phục thường quy về "nhà" — và cụ thể hơn là "giường" hoặc "phòng ngủ" — vì người ta dành khoảng 1/3 đời để ngủ, và phần lớn thời gian còn lại cũng trong không gian quen thuộc của riêng mình. Trọng tâm là quá trình suy luận: ứng viên có phân biệt được "nơi tôi mơ tới" và "nơi tôi thực sự ở nhiều nhất" hay không, và có nhận ra rằng chính cái thứ hai mới phản ánh điều con người thật sự thích.
 
-**Tín hiệu tốt:** Chi tiết cụ thể ("băng ghế phía sau quán X lúc 7 giờ sáng, vì…"). Sở hữu lựa chọn của mình.
-**Tín hiệu yếu:** Câu trả lời chung chung ("bãi biển"), hoặc câu trả lời được uốn nắn để gây ấn tượng.
+**Tín hiệu tốt:** Phân biệt rõ "nơi mơ ước du lịch" và "nơi thực sự sống"; chốt một câu trả lời (nhà / giường / phòng ngủ / một góc quen thuộc) kèm lập luận về thời gian dành ở đó, sự thoải mái, hoặc cảm giác an toàn.
+**Tín hiệu yếu:** Trả lời như thể đây là câu hỏi cá nhân ("tôi thích bãi biển"). Hoặc trả lời "đúng" (nhà) nhưng không lý giải được vì sao. Hoặc liệt kê địa điểm hấp dẫn mà bỏ qua nơi con người thực sự dành phần lớn cuộc đời.
 
 ---
 
-### Q2 — Bạn tìm kiếm gì ở sự nghiệp? · `[S]`
+### Q2 — Một con người nói chung tìm kiếm gì ở sự nghiệp? · `[S]`
 
 > Người tìm kiếm gì ở sự nghiệp?
 
+**Lưu ý:** Câu này **không** hỏi về sự nghiệp của riêng bạn. Câu này hỏi: với **con người nói chung**, họ thực sự đi tìm điều gì ở một sự nghiệp? Cần khái quát hoá về động cơ con người, không kể tham vọng cá nhân.
+
 **Chúng tôi muốn nghe gì**
 
-Sự nhất quán giữa mục tiêu được tuyên bố và những quyết định ứng viên đã thực sự đưa ra. Sự cụ thể là quan trọng — "tăng trưởng" và "tạo ảnh hưởng" chỉ là chỗ trống; chúng tôi muốn biết *loại* tăng trưởng nào, *hướng tới điều gì*.
+Một mô hình về động cơ con người, không phải bản tự thuật. Câu trả lời thuyết phục thường nêu ra một vài lớp nhu cầu — ví dụ tiền (sinh tồn, an toàn), sự công nhận (vị thế, được nhìn thấy), ý nghĩa (cảm giác mình có ích), khả năng làm chủ (mastery), sự tự chủ (autonomy), thuộc về (cộng đồng đồng nghiệp), và bản sắc (mình là ai khi được hỏi "bạn làm gì?"). Càng tốt hơn nếu ứng viên xếp thứ tự các lớp này, hoặc chỉ ra rằng lớp nào trồi lên phụ thuộc vào giai đoạn cuộc đời.
 
-**Tín hiệu tốt:** Nêu một hướng đi và một sự đánh đổi cụ thể đã chấp nhận để theo đuổi nó.
-**Tín hiệu yếu:** Buzzword không có thực tại tham chiếu. Câu trả lời rập khuôn theo giá trị công ty mà không có ví dụ sống.
+**Tín hiệu tốt:** Đưa ra một khung gồm nhiều động cơ và phân tích sự đánh đổi giữa chúng. Phân biệt được điều người ta *nói* mình tìm và điều người ta *thực sự* tìm (qua hành vi: ai từ chối lương cao để được tự chủ, ai chấp nhận công việc nhàm chán vì sự ổn định).
+**Tín hiệu yếu:** Trả lời như thể đây là câu hỏi về bản thân ("tôi tìm growth và impact"). Buzzword không có thực tại tham chiếu. Chỉ nhắc một động cơ duy nhất (ví dụ chỉ tiền, hoặc chỉ ý nghĩa) như thể nó giải thích hết hành vi nghề nghiệp của con người.
 
 ---
 
@@ -219,6 +223,30 @@ Một quy trình. Xác định điểm nghẽn (chọn làn, phương thức tha
 
 **Tín hiệu tốt:** Ràng buộc → các phương án → khuyến nghị, với đánh đổi tường minh. Điểm thưởng nếu tham chiếu ví dụ thực tế (nhà vệ sinh sân bay thường dùng mê cung không cửa).
 **Tín hiệu yếu:** "Cửa bản lề." Một phương án duy nhất không so sánh. Bỏ qua vệ sinh hoặc riêng tư.
+
+---
+
+### Q15 — Chọn quầy "ngon, bổ, rẻ" ở chợ trái cây buổi trưa, không hỏi ai · `[O, Cr, P]`
+
+> Bạn đang đi vào 1 khu vực chợ trái cây gồm nhiều loại trái cây yêu thích. Thời gian là buổi trưa, người bán đang không ở đó hoặc đang nghỉ trưa, nên bạn không muốn giao tiếp với ai. Làm thế nào để nhanh nhất chọn được quầy hàng nào bán "ngon, bổ, rẻ" để ghé vào mua?
+
+**Ràng buộc đề bài (quan trọng):** không hỏi, không thử, không tương tác với bất kỳ ai. Chỉ được dùng mắt và đầu. Cần "**nhanh nhất**" — tức là một bộ heuristic, không phải một quy trình tỉ mỉ.
+
+**Chúng tôi muốn nghe gì**
+
+Ba thứ:
+
+1. **Bộ dấu hiệu đọc bằng mắt** cho từng tiêu chí:
+   - **Ngon (chất lượng):** trái xếp đều, không dập, cuống/lá còn tươi xanh, không bị ruồi vây, không che nắng bằng vải bẩn; trái dưới đáy cùng độ chín như trái trên mặt (không phải "xếp mặt đẹp").
+   - **Bổ (an toàn / tự nhiên):** kích thước **không quá đồng đều** (đồng đều bất thường thường là hormone/ngâm), không bóng loáng quá mức (dấu hiệu sáp), có nhãn nguồn gốc nếu chợ chính quy, có cả trái xấu lẫn đẹp (đời thật, không qua tuyển lọc gắt).
+   - **Rẻ (giá):** có **niêm yết giá rõ ràng** — không có nghĩa là rẻ, mà nghĩa là người bán không "đọc khách"; có thể quét giá 2–3 quầy cùng loại trong vài giây để so.
+
+2. **Nhận ra ba tiêu chí mâu thuẫn nhau** — hiếm khi có một quầy thắng cả ba. Ứng viên cần chốt một thứ tự ưu tiên (ví dụ: ngon ≥ bổ > rẻ), hoặc dùng meta-heuristic: tìm quầy *trông giống nơi dân địa phương đi chợ hằng ngày hay ghé* — vì người địa phương lặp lại đã tự tối ưu cả ba.
+
+3. **Tận dụng dấu hiệu phụ** mà không cần người bán có mặt: xe máy/xe đẩy của chủ quầy (cũ-bình thường = bán cho dân, mới-bóng = bán cho khách lạ), biển hiệu cũ mòn (quầy lâu năm, sống được nhờ khách quen), vị trí quầy trong chợ (gần lối ra hoặc khuất thường rẻ hơn quầy mặt tiền), trái cây còn vương lá/đất (mới hái, không phải kho lạnh), giấy gói tái dùng vs túi nilon mới.
+
+**Tín hiệu tốt:** Liệt kê được nhiều dấu hiệu cụ thể đọc bằng mắt; phân biệt được dấu hiệu "thật" (chất lượng vật lý) và dấu hiệu "trang trí" (bày bóng bẩy); nhận ra ba tiêu chí xung đột và đề xuất một quy tắc ưu tiên rõ ràng; biết khai thác dấu hiệu phụ khi không có người để hỏi.
+**Tín hiệu yếu:** "Hỏi người xung quanh" hoặc "đợi người bán về" — vi phạm ràng buộc đề bài. "Chọn quầy đông khách nhất" — đề đã nói buổi trưa, không có người. Chỉ nhìn giá, hoặc chỉ nhìn vẻ ngoài. Không nhận ra ba tiêu chí có thể đánh nhau, hoặc đề xuất một quầy "thắng cả ba" mà không giải thích sao biết.
 
 ---
 
