@@ -230,23 +230,24 @@ Một quy trình. Xác định điểm nghẽn (chọn làn, phương thức tha
 
 > Bạn đang đi vào 1 khu vực chợ trái cây gồm nhiều loại trái cây yêu thích. Thời gian là buổi trưa, người bán đang không ở đó hoặc đang nghỉ trưa, nên bạn không muốn giao tiếp với ai. Làm thế nào để nhanh nhất chọn được quầy hàng nào bán "ngon, bổ, rẻ" để ghé vào mua?
 
-**Ràng buộc đề bài (quan trọng):** không hỏi, không thử, không tương tác với bất kỳ ai. Chỉ được dùng mắt và đầu. Cần "**nhanh nhất**" — tức là một bộ heuristic, không phải một quy trình tỉ mỉ.
+**Ràng buộc đề bài:** Không hỏi, không thử, không tương tác. Chỉ dùng mắt. Cần "**nhanh nhất**" — nghĩa là một **quan sát nén (compressed signal)**, không phải checklist tỉ mỉ.
 
-**Chúng tôi muốn nghe gì**
+**Câu này KHÔNG kiểm tra điều gì**
 
-Ba thứ:
+- Liệt kê đặc điểm hiển nhiên của trái cây ngon (tươi, không dập, đều màu, không sáp…). Ai cũng biết, không có tín hiệu gì.
+- Tìm "quầy đông khách". Đề đã chốt buổi trưa, không có ai mua hàng — không có đám đông để đếm.
+- Đoán "ngon-bổ-rẻ" trực tiếp từ trái cây. Đó là **kết quả**, không phải dấu hiệu. Dấu hiệu phải đọc từ **quầy và người bán**.
 
-1. **Bộ dấu hiệu đọc bằng mắt** cho từng tiêu chí:
-   - **Ngon (chất lượng):** trái xếp đều, không dập, cuống/lá còn tươi xanh, không bị ruồi vây, không che nắng bằng vải bẩn; trái dưới đáy cùng độ chín như trái trên mặt (không phải "xếp mặt đẹp").
-   - **Bổ (an toàn / tự nhiên):** kích thước **không quá đồng đều** (đồng đều bất thường thường là hormone/ngâm), không bóng loáng quá mức (dấu hiệu sáp), có nhãn nguồn gốc nếu chợ chính quy, có cả trái xấu lẫn đẹp (đời thật, không qua tuyển lọc gắt).
-   - **Rẻ (giá):** có **niêm yết giá rõ ràng** — không có nghĩa là rẻ, mà nghĩa là người bán không "đọc khách"; có thể quét giá 2–3 quầy cùng loại trong vài giây để so.
+**Câu này kiểm tra điều gì**
 
-2. **Nhận ra ba tiêu chí mâu thuẫn nhau** — hiếm khi có một quầy thắng cả ba. Ứng viên cần chốt một thứ tự ưu tiên (ví dụ: ngon ≥ bổ > rẻ), hoặc dùng meta-heuristic: tìm quầy *trông giống nơi dân địa phương đi chợ hằng ngày hay ghé* — vì người địa phương lặp lại đã tự tối ưu cả ba.
+Khả năng tìm **một quan sát duy nhất nén được nhiều ý nghĩa cùng lúc** — kiểu observation mà người làm product, làm process design rất giỏi. Một dấu hiệu tốt phải đồng thời gợi lên:
 
-3. **Tận dụng dấu hiệu phụ** mà không cần người bán có mặt: xe máy/xe đẩy của chủ quầy (cũ-bình thường = bán cho dân, mới-bóng = bán cho khách lạ), biển hiệu cũ mòn (quầy lâu năm, sống được nhờ khách quen), vị trí quầy trong chợ (gần lối ra hoặc khuất thường rẻ hơn quầy mặt tiền), trái cây còn vương lá/đất (mới hái, không phải kho lạnh), giấy gói tái dùng vs túi nilon mới.
+- Quầy đã hoạt động **lâu năm** (uy tín được kiểm chứng qua thời gian).
+- Quầy phục vụ **nhiều loại khách** (cả mua lẻ và mua sỉ → cộng đồng địa phương dùng quầy này).
+- Người bán **không có ý gian** (minh bạch trong giao dịch, kể cả khi không có ai giám sát).
 
-**Tín hiệu tốt:** Liệt kê được nhiều dấu hiệu cụ thể đọc bằng mắt; phân biệt được dấu hiệu "thật" (chất lượng vật lý) và dấu hiệu "trang trí" (bày bóng bẩy); nhận ra ba tiêu chí xung đột và đề xuất một quy tắc ưu tiên rõ ràng; biết khai thác dấu hiệu phụ khi không có người để hỏi.
-**Tín hiệu yếu:** "Hỏi người xung quanh" hoặc "đợi người bán về" — vi phạm ràng buộc đề bài. "Chọn quầy đông khách nhất" — đề đã nói buổi trưa, không có người. Chỉ nhìn giá, hoặc chỉ nhìn vẻ ngoài. Không nhận ra ba tiêu chí có thể đánh nhau, hoặc đề xuất một quầy "thắng cả ba" mà không giải thích sao biết.
+**Tín hiệu tốt:** Tìm được một dấu hiệu nén — một quan sát đơn lẻ về quầy/người bán mà đồng thời gợi lên cả ba lớp (lâu năm, phục vụ nhiều loại khách, sòng phẳng trong giao dịch) — và giải thích được vì sao một observation lại nén được nhiều ý nghĩa cùng lúc. Hiểu rằng "ngon-bổ-rẻ" là kết quả, dấu hiệu phải đọc qua **người bán và quầy**, không qua trái cây.
+**Tín hiệu yếu:** Liệt kê đặc điểm trái cây hiển nhiên. Cố tìm "quầy đông khách" trong khi đề đã loại trừ. Nhiều heuristic mỏng thay vì một quan sát sắc. Không phân biệt được dấu hiệu (proxy) với kết quả (outcome).
 
 ---
 
