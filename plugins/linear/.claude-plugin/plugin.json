@@ -1,0 +1,11 @@
+{
+  "name": "linear",
+  "displayName": "Linear",
+  "description": "Scripts-first Linear issue-tracker workflow for Claude Code: pick tasks, link sessions, upload plans, log bugs, and auto-transition issues on PR events.",
+  "version": "1.0.0",
+  "author": { "name": "Papaya Insurtech", "email": "people@papaya.asia" },
+  "license": "MIT",
+  "keywords": ["linear", "issue-tracking", "workflow"],
+  "agents": ["./agents/linear.md"],
+  "hooks": "./hooks/hooks.json"
+}

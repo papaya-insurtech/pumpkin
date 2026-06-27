@@ -162,21 +162,16 @@ Use harnesses to keep the workflow smooth:
 
 Keep stable rules in tools and harnesses. Do not rely on every engineer remembering the perfect prompt.
 
-## Use Team Convention Skills
+## Use Team Plugins and Conventions
 
-Install Papaya convention skills from the marketplace:
+Install Papaya plugins from the marketplace:
 
 ```bash
 /plugin marketplace add papaya-insurtech/pumpkin
-/plugin install typescript-convention@papaya-pumpkin
-/plugin install react-convention@papaya-pumpkin
-/plugin install react-native-convention@papaya-pumpkin
-/plugin install hasura-graphql-convention@papaya-pumpkin
-/plugin install nodejs-convention@papaya-pumpkin
-/plugin install ant-design-convention@papaya-pumpkin
+/plugin install linear@papaya-pumpkin
 ```
 
-Install the skills relevant to the project. Ask Claude to use them when writing or reviewing code.
+Follow the team's documented coding conventions when writing or reviewing code.
 
 ## Review the Right Things
 

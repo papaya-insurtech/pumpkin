@@ -17,12 +17,12 @@
 - [ ] Install Claude Code CLI ([setup guide](./resources/Claude_Setup.md))
 - [ ] Install Claude Desktop ([setup guide](./resources/Claude_Setup.md))
 - [ ] Get authentication credentials from Mr. Loc
-- [ ] Install team convention skills from the marketplace:
+- [ ] Install team plugins from the marketplace:
   ```
   /plugin marketplace add papaya-insurtech/pumpkin
-  /plugin install typescript-convention@papaya-pumpkin
+  /plugin install linear@papaya-pumpkin
   ```
-  See the setup guide for the full skill list.
+  See the setup guide for details.
 - [ ] Run `claude` in a project directory and verify it works
 
 ## 4. Technical Onboarding

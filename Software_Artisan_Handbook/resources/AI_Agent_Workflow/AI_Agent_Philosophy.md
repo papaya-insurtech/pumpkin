@@ -47,7 +47,7 @@ Use Claude Code when you need to:
 - Run and write tests
 - Generate documentation from code
 - Build automation scripts and agents
-- Install and use team convention skills from the marketplace
+- Install and use the team's Claude Code plugins from the marketplace
 
 Claude Code is your **primary coding tool**. It reads your codebase, understands context, follows team conventions (via installed skills), and produces code that matches your project's patterns.
 

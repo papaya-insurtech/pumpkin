@@ -19,7 +19,7 @@ Common issues when working with AI agents and how to resolve them.
 **Solutions:**
 1. **Point Claude at examples** -- "Look at how `ClaimCaseScreen` handles this pattern and follow the same approach."
 2. **Provide explicit constraints** -- "We use `usePQuery` not `useQuery`. We use `gql.tada` not `@apollo/client`."
-3. **Install convention skills** -- `/plugin install typescript-convention@papaya-pumpkin` ensures Claude follows team conventions.
+3. **Follow team conventions** -- ensure Claude is guided by the team's documented coding conventions.
 4. **Reference the CLAUDE.md** -- make sure project-specific patterns are documented.
 
 ## Context Limit Issues
@@ -57,7 +57,7 @@ Common issues when working with AI agents and how to resolve them.
 **Symptoms:** Code works but is messy, doesn't follow conventions, or uses anti-patterns.
 
 **Solutions:**
-1. **Install convention skills** -- skills enforce team standards automatically.
+1. **Follow team conventions** -- ensure Claude is guided by the team's documented coding conventions.
 2. **Provide examples** -- "Follow the same pattern as `src/screens/ClaimPortal/index.tsx`."
 3. **Iterate** -- give specific feedback: "Use early return instead of nested if-else" rather than "make it better."
 4. **Check your prompt** -- vague prompts produce vague results. Be specific about what you want.

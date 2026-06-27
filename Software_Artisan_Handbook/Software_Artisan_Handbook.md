@@ -4,7 +4,7 @@
 
 This handbook is designed to be a comprehensive guide that covers everything from AI-agent-first workflows to the more complex aspects of our team's development process. Whether you're a seasoned software engineer or just starting out, this handbook will be an invaluable resource as you work on projects and collaborate with other team members.
 
-Our team operates with an AI-agent-first model. Convention skills are distributed via the [Claude Code Skills Marketplace](../../plugins/) -- install them with `/plugin marketplace add papaya-insurtech/pumpkin`.
+Our team operates with an AI-agent-first model and follows documented coding conventions. The Claude Code Skills Marketplace hosts the team's `linear` plugin and other tooling (see [marketplace catalog](../../plugins/)).
 
 ## Section 1: AI Agent Workflow
 

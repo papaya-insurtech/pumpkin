@@ -18,7 +18,7 @@
 
 - [ ] No hallucinated APIs -- all functions, methods, and imports actually exist and have the correct signatures.
 - [ ] No scope creep -- the agent didn't "improve" code beyond what was asked (extra error handling, refactoring adjacent code, adding comments).
-- [ ] Convention skill compliance -- code follows installed team convention skills (typescript-convention, react-convention, etc.).
+- [ ] Convention compliance -- code follows the team's coding conventions (TypeScript, React, etc.).
 - [ ] No hardcoded or placeholder values -- the agent didn't leave TODO comments, placeholder strings, or mock data.
 - [ ] Business logic correctness -- the agent understood the domain correctly (insurance terms, claim flows, etc.).
 - [ ] Security review -- no new vulnerabilities introduced (SQL injection via Hasura, XSS, exposed secrets).
@@ -26,31 +26,31 @@
 
 ## TypeScript Checklist
 
-- [ ] Follow the `typescript-convention` skill conventions.
+- [ ] Follow the team's TypeScript conventions.
 
 ## Serverless Checklist
 
-- [ ] Follow the `serverless-convention` skill conventions.
+- [ ] Follow the team's serverless conventions.
 - [ ] All new environment variables are updated to SSM Parameter Store.
 - [ ] The new serverless functions are only enabled in necessary environments.
 
 ## React Checklist
 
-- [ ] Follow the `react-convention` skill conventions.
+- [ ] Follow the team's React conventions.
 
 ## ReactNative Checklist
 
-- [ ] Follow the `react-native-convention` skill conventions.
+- [ ] Follow the team's React Native conventions.
 
 ## Hasura Checklist
 
-- [ ] Follow the `hasura-graphql-convention` skill conventions.
+- [ ] Follow the team's Hasura/GraphQL conventions.
 - [ ] The PR has no Metadata changes that are not related to the Jira task.
 
 ## GraphQL Checklist
 
-- [ ] Follow the `graphql-convention` skill conventions.
+- [ ] Follow the team's GraphQL conventions.
 
 ## Nodejs Checklist
 
-- [ ] Follow the `nodejs-convention` skill conventions.
+- [ ] Follow the team's Node.js conventions.

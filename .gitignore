@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings & SDD scratch
+.claude/settings.local.json
+.superpowers/
+docs/superpowers/

@@ -1,72 +1,47 @@
-# README
+# Pumpkin
 
-This is our Knowledge Hub that we can share between artisans and the world.
-
-## Claude Code Skills Marketplace
-
-This repository serves as a **Claude Code plugin marketplace** for Papaya coding conventions. Install skills via:
-
-```bash
-/plugin marketplace add papaya-insurtech/pumpkin
-/plugin install typescript-convention@papaya-pumpkin
-```
-
-See [marketplace catalog](.claude-plugin/marketplace.json) for all available skills.
+Papaya's public knowledge hub and Claude Code plugin marketplace.
 
 ## Structure
 
-- [Software Artisan Handbook](Software_Artisan_Handbook/Software_Artisan_Handbook.md) -- Development process, AI agent workflow, tools, domain knowledge
-- [Onboarding Guide](Onboarding_New_Software_Artisan/Onboarding_Guide.md) -- New engineer onboarding
-- [Convention Skills](plugins/) -- Claude Code convention skills (typescript, react, hasura, etc.)
-- [Software Artisan Challenges](Software_Artisan_Challenges/) -- Coding challenges
+- **[Hiring/](Hiring/)** — job descriptions, coding challenges, and logical questions
+  - [JD/](Hiring/JD/) — job descriptions
+  - [AI Engineering Challenges](Hiring/AI_Engineering_Challenges/) — AI-focused take-home challenges
+  - [Software Artisan Challenges](Hiring/Software_Artisan_Challenges/) — engineering take-home challenges
+  - [Logical Questions](Hiring/Logical_Questions/) — logic and reasoning questions
+- **[Software Artisan Handbook](Software_Artisan_Handbook/Software_Artisan_Handbook.md)** — development process, AI-agent workflow, tools, and domain knowledge
+- **[Onboarding Guide](Onboarding_New_Software_Artisan/Onboarding_Guide.md)** — new-engineer onboarding
+- **[Whitepapers](Whitepapers/)** — public whitepapers
 
-## Wish List
+## Claude Code Marketplace
 
-- Software Engineering Principles
-  - [Tech Stack](Software_Artisan_Handbook/resources/Tech_Stack.md)
-  - Software Architecture
-  - Staying on edge
-  - Move fast, don't break things
-  - Growth
-  - Self-sufficient
-  - How to make technical decisions yourself
-  - [Engineering Ladders](https://github.com/jorgef/engineeringladders)
-  - [Jira - Process Issues with Smart Commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
-- Best practices
-  - Typescript
-  - React
-  - GraphQL
-  - Choosing the right node modules
-  - Troubleshooting
-  - AI-agent-first workflows
-- Patterns
-  - Hasura
-  - Typescript
-  - GraphQL
-  - React
-  - Serverless
-- Project set up
-  - Monorepo
-  - React
-  - Serverless
-- IDE
-  - VSCode set up
-  - [Extensions](Software_Artisan_Handbook/resources/VS_Code_Recommended_Extensions.md)
-- Local set up
-  - CLIs
-  - [Software & Tools](Software_Artisan_Handbook/resources/OS_Softwares_And_Tools.md)
-- Slack
-  - Tech channels
-    - [Tracking releases of repositories in use or great interest (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
-    - [Papaya-Insurtech Github activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
-    - [Interesting and _interesting_ links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V). Also takes RSS from sites of interests
-- Software Development Process
-  - [Development Process](Software_Artisan_Handbook/resources/Development_Process/Development_Process.md)
-  - Testing
-  - CI/CD
-  - Peer Demo
-  - Product Manager Demo
+Install the `linear` plugin:
 
-## Routines
+```
+/plugin marketplace add papaya-insurtech/pumpkin
+/plugin install linear@papaya-pumpkin
+```
 
-- Update Day: Monday weekly
+The `linear` plugin integrates Linear into Claude Code via a scripts-first CLI, eight `/linear-*` slash skills, an AI sub-agent, and lifecycle hooks — with Linear MCP as a fallback of last resort.
+
+See [plugins/linear/README.md](plugins/linear/README.md) for setup, skills, and full usage.
+
+## Roadmap and Useful Links
+
+### Handbook resources
+
+- [Tech Stack](Software_Artisan_Handbook/resources/Tech_Stack.md)
+- [VS Code Recommended Extensions](Software_Artisan_Handbook/resources/VS_Code_Recommended_Extensions.md)
+- [OS Softwares and Tools](Software_Artisan_Handbook/resources/OS_Softwares_And_Tools.md)
+- [Development Process](Software_Artisan_Handbook/resources/Development_Process/Development_Process.md)
+
+### External references
+
+- [Engineering Ladders](https://github.com/jorgef/engineeringladders)
+- [Jira — Process Issues with Smart Commits](https://support.atlassian.com/jira-software-cloud/docs/process-issues-with-smart-commits/)
+
+### Slack tech channels
+
+- [Tracking releases of repositories in use or great interest (no reply)](https://papayainsurtech.slack.com/archives/C03EV0K15NG)
+- [Papaya-Insurtech GitHub activity feeds](https://papayainsurtech.slack.com/archives/C027C8H1DKP)
+- [Interesting and _interesting_ links](https://papayainsurtech.slack.com/archives/C02QQJGJX0V)

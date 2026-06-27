@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      { "matcher": "Bash", "hooks": [ { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/pr-transitions.sh\"", "timeout": 30 } ] },
+      { "matcher": "ExitPlanMode", "hooks": [ { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/plan-upload.sh\"", "timeout": 60 } ] }
+    ],
+    "SessionStart": [
+      { "matcher": "", "hooks": [ { "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\"", "timeout": 30 } ] }
+    ]
+  }
+}

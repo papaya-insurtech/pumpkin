@@ -8,7 +8,7 @@ Welcome to the Papaya engineering team. This guide covers the essential steps to
 
 Start here. AI tools are central to all work at Papaya.
 
-1. Follow the [Claude Setup Guide](./resources/Claude_Setup.md) to install Claude Code, Claude Desktop, and team convention skills.
+1. Follow the [Claude Setup Guide](./resources/Claude_Setup.md) to install Claude Code, Claude Desktop, and the team's Claude Code plugins.
 2. Read [AI Agent Philosophy](../Software_Artisan_Handbook/resources/AI_Agent_Workflow/AI_Agent_Philosophy.md) to understand our three-tool model.
 3. Read [Claude Code Best Practices](../Software_Artisan_Handbook/resources/AI_Agent_Workflow/Claude_Code_Best_Practices.md) for effective usage patterns.
 4. Read [Claude Code Workflow Setup](../Software_Artisan_Handbook/resources/AI_Agent_Workflow/Claude_Code_Workflow_Setup.md) for the team workflow around branches, worktrees, PRs, context, and review agents.

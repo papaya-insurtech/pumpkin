@@ -66,11 +66,11 @@ The agent may create unnecessary abstractions, add configuration options nobody 
 3. Check if the agent's interpretation matches the intended behavior.
 4. If the PR description doesn't include agent instructions, ask the developer to add them.
 
-## Ensuring Skill Compliance
+## Ensuring Convention Compliance
 
-Convention skills installed from the marketplace define how code should be written. When reviewing:
+The team's coding conventions define how code should be written. When reviewing:
 
-1. Check if the code follows the relevant convention skills (typescript-convention, react-convention, etc.).
+1. Check if the code follows the team's coding conventions (TypeScript, React, etc.).
 2. Pay special attention to Papaya-specific patterns: `usePQuery`/`usePMutation`, `<ExternalLink>`, notification patterns, modal usage patterns.
 3. If the agent used standard library patterns instead of Papaya wrappers, flag it.
 

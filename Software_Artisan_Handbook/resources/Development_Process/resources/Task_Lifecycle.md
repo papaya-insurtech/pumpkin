@@ -62,7 +62,7 @@ After completing research and forming a solution, immediately seek peer/leader r
 
 **Agent role in this phase:**
 - Use **Claude Code** as the primary coding tool. Direct it with specific tasks: `"Implement the claim case creation form following the pattern in ExistingScreen.tsx"`.
-- Ensure Claude Code has convention skills installed: `/plugin install typescript-convention@papaya-pumpkin`.
+- Ensure your work follows the team's coding conventions.
 - Use **Plan Mode** for complex changes: let Claude Code explore, plan, then execute.
 - Review all generated code before committing. Watch for hallucinated APIs and scope creep. See [Reviewing AI Generated Code](Code_Review/resources/Reviewing_AI_Generated_Code.md).
 

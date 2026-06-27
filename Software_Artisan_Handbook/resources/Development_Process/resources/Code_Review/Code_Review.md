@@ -32,7 +32,7 @@ Code review is the process of examining code to ensure it meets standards and is
 - **Be constructive:** Aim to help the developer improve. Deliver feedback respectfully.
 - **Be timely:** Review promptly, ideally within a few days.
 - **Be consistent:** Apply the same standards to all code, whether human-written or AI-generated.
-- **Check agent compliance:** Verify the code follows team convention skills. See [Reviewing AI Generated Code](./resources/Reviewing_AI_Generated_Code.md).
+- **Check agent compliance:** Verify the code follows the team's coding conventions. See [Reviewing AI Generated Code](./resources/Reviewing_AI_Generated_Code.md).
 
 ## [Reviewee Convention](./resources/Reviewee_Convention.md)
 

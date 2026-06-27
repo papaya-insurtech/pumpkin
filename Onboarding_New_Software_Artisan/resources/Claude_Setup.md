@@ -62,24 +62,19 @@ Open Claude Desktop > Cowork tab. Requires a paid plan.
 
 Ask Mr. Loc for the team credentials and API access.
 
-## 5. Team Convention Skills Marketplace
+## 5. Team Plugins Marketplace
 
-Install Papaya's coding convention skills so Claude Code follows team standards:
+Install Papaya's plugins so Claude Code has access to team tooling:
 
 ```bash
 # In any Claude Code session:
 /plugin marketplace add papaya-insurtech/pumpkin
 
-# Install specific convention skills:
-/plugin install typescript-convention@papaya-pumpkin
-/plugin install react-convention@papaya-pumpkin
-/plugin install react-native-convention@papaya-pumpkin
-/plugin install hasura-graphql-convention@papaya-pumpkin
-/plugin install nodejs-convention@papaya-pumpkin
-/plugin install ant-design-convention@papaya-pumpkin
+# Install the linear plugin:
+/plugin install linear@papaya-pumpkin
 ```
 
-Install the skills relevant to your project. See the full list in the [marketplace catalog](../../.claude-plugin/marketplace.json).
+See the full list in the [marketplace catalog](../../plugins/).
 
 ## 6. Git Configuration (One-Time Setup)
 
