@@ -18,8 +18,8 @@ Không có đậu/rớt. Chúng tôi lắng nghe **sự cụ thể, sự thành 
 **Cho ứng viên:**
 
 - Trả lời bằng ngôn ngữ nào bạn thấy thoải mái (tiếng Việt hay tiếng Anh đều được).
-- **Hai câu bắt buộc với mọi ứng viên:** Q4 (ký ức đầu tiên) và Q5 (lần cuối bỏ quên một món đồ). Phải trả lời.
-- Ngoài hai câu trên, chọn những câu bạn thấy hứng thú — không cần trả lời hết 13 câu.
+- **Hai câu bắt buộc với mọi ứng viên:** Q1 (ký ức đầu tiên) và Q5 (lần cuối bỏ quên một món đồ). Phải trả lời.
+- Ngoài hai câu trên, chọn những câu bạn thấy hứng thú — không cần trả lời hết 10 câu.
 - Luôn giải thích *tại sao*. Lý do quan trọng hơn lựa chọn.
 - Đừng diễn. Chúng tôi nhận ra ngay câu trả lời được uốn nắn để chiều người phỏng vấn thay vì thành thật.
 
@@ -57,7 +57,7 @@ Chúng tôi gom câu hỏi theo tải nhận thức, không phải theo mức đ
 
 ## Khởi động
 
-### Q4 — Ký ức đầu tiên của bạn là gì? · `[M]` · **Bắt buộc**
+### Q1 — Ký ức đầu tiên của bạn là gì? · `[M]` · **Bắt buộc**
 
 > Ký ức đầu tiên của bạn là gì?
 
@@ -70,7 +70,7 @@ Một cảnh tượng, lý tưởng nhất là có chi tiết giác quan. Ký �
 
 ---
 
-### Q10 — Tên con thú cưng bạn thích nhất, và những tên khác bạn muốn đặt · `[N, M]`
+### Q2 — Tên con thú cưng bạn thích nhất, và những tên khác bạn muốn đặt · `[N, M]`
 
 > Tên của con pet mà bạn thích nhất là gì? Hãy liệt kê các tên khác mà bạn muốn đặt cho pet của mình.
 
@@ -83,7 +83,7 @@ Con vật (thật hay tưởng tượng), cái tên, và câu chuyện đằng s
 
 ---
 
-### Q11 — Bạn có đặt tên cho đồ vật mình sở hữu không? Liệt kê một số tên. · `[N]`
+### Q3 — Bạn có đặt tên cho đồ vật mình sở hữu không? Liệt kê một số tên. · `[N]`
 
 > Bạn có đặt tên cho đồ vật mà mình sở hữu không? Hãy liệt kê một số tên.
 
@@ -91,14 +91,14 @@ Con vật (thật hay tưởng tượng), cái tên, và câu chuyện đằng s
 
 Hoặc "có, đây là danh sách và lý do", hoặc một câu "không" có suy ngẫm. Cả hai đều hợp lệ. Chúng tôi thăm dò cách bạn liên hệ với đồ vật — chức năng hay nhân hóa — và liệu bạn có một phong cách đặt tên hay không.
 
-**Tín hiệu tốt:** Có, kèm ví dụ thể hiện cá tính; hoặc một câu không có suy ngẫm, khác biệt với Q10.
+**Tín hiệu tốt:** Có, kèm ví dụ thể hiện cá tính; hoặc một câu không có suy ngẫm, khác biệt với Q2.
 **Tín hiệu yếu:** Có-nhưng-không-kể-được. Phủ nhận hời hợt, không suy ngẫm.
 
 ---
 
 ## Trung cấp
 
-### Q3 — Người bán hàng nào dễ chịu nhất? · `[O]`
+### Q4 — Người bán hàng nào dễ chịu nhất? · `[O]`
 
 > Người bán hàng nào dễ chịu nhất?
 
@@ -152,41 +152,9 @@ Sự chặt chẽ trong quan sát giống Q6 — *cộng thêm* sự quan tâm �
 
 ---
 
-### Q16 — Bia trước hay nước đá trước? · `[O, Cu]`
-
-> Bia trước hay nước đá trước?
-
-**Đây là câu đố mẹo.** Câu hỏi nghe như về thao tác *uống* hoặc *rót bia ở quán* — nếu đi theo hướng đó sẽ có nhiều thứ để lý luận (bọt, nhiệt độ, tỉ lệ…), nhưng đó không phải kịch bản câu hỏi đang nói tới. Có một thao tác đời thường khác cùng dùng "bia" và "nước đá", phổ biến trong văn hoá sinh hoạt người Việt (đặc biệt miền Nam, xứ nhiệt đới). Ứng viên cần nhận ra kịch bản đó trước, rồi mới trả lời thứ tự.
-
-**Câu này kiểm tra điều gì**
-
-Khả năng **không khoá vào framing đầu tiên** xuất hiện trong đầu. Phần lớn ứng viên sẽ tự động đi vào lập luận trên-ly. Người để ý nếp sinh hoạt thực tế của người Việt sẽ thấy có kịch bản khác và nhảy thẳng vào đó.
-
-**Tín hiệu tốt:** Dừng lại hỏi bối cảnh ("đang nói về thao tác gì?") trước khi trả lời. Hoặc tự bước ra khỏi kịch bản uống/rót và nêu được kịch bản đời thường khác kèm thứ tự hợp lý + lý do (thường rất gọn, có tính công năng, ai làm rồi cũng thấy hợp lý).
-**Tín hiệu yếu:** Lao thẳng vào lập luận vật lý cho kịch bản uống/rót mà không xét kịch bản khác. Trả lời "tuỳ thích" / "sao cũng được" — nghĩa là chưa quan sát thao tác nào kỹ. Trả lời quá kỹ thuật cho một câu hỏi đời thường — thường là tín hiệu thiếu thực tiễn.
-
----
-
 ## Chuyên sâu
 
-### Q9 — Giải thích bằng lời nói về hằng số Planck — hoặc bất kỳ hằng số vật lý nào bạn chọn (c, G, ℏ, k_B…) · `[Cu]`
-
-> Hãy giải thích bằng lời nói về hằng số Planck vào ngày phỏng vấn. Bạn có thể chọn c (trong E=mc²) hoặc bất kỳ hằng số vật lý nào bạn thích.
-
-**⚠️ Quan trọng — phải trả lời bằng lời nói trong phiên phỏng vấn**
-
-Câu này **bắt buộc phải trình bày trực tiếp bằng lời nói** trong phiên phỏng vấn. **Trả lời bằng văn bản (chat, email, tài liệu) được 0 điểm** — không có ngoại lệ. Đây là phép thử việc bạn có thể giải thích một khái niệm tức thời, không dựa vào tra cứu hay biên tập câu chữ. Hãy chuẩn bị để nói, không phải để gõ.
-
-**Chúng tôi muốn nghe gì**
-
-Bạn không cần chính xác kỹ thuật tuyệt đối. Bạn cần đã *chọn* để biết điều này. Sự tò mò là tính cách — có lúc nào bạn đào sâu một chủ đề chỉ vì bạn muốn? Bạn có thể truyền tải *vì sao* nó quan trọng cho một người không phải dân vật lý không?
-
-**Tín hiệu tốt:** Chọn một hằng số bạn thực sự thấy thú vị và phác họa được điều gì sẽ thay đổi nếu giá trị nó khác đi. Thoải mái nói "tôi không rõ phần này lắm".
-**Tín hiệu yếu:** Đọc thuộc Wikipedia. Hoặc từ chối vì "tôi không phải dân vật lý" — đó chính là kiểu thất bại câu hỏi này được dựng lên để bộc lộ.
-
----
-
-### Q12 — Viết hướng dẫn đổ xăng tại cây xăng nhanh nhất có thể · `[Cr, Q]`
+### Q8 — Viết hướng dẫn đổ xăng tại cây xăng nhanh nhất có thể · `[Cr, Q]`
 
 > Bạn hãy viết hướng dẫn (guideline) cho cách đổ xăng ở cây xăng tốn ít thời gian nhất. Tình huống giả lập là xe đang cần thêm xăng. Bạn có thể chọn bất kỳ phương tiện xăng nào mà bạn thích.
 
@@ -199,7 +167,7 @@ Một quy trình. Xác định điểm nghẽn (chọn làn, phương thức tha
 
 ---
 
-### Q14 — Thiết kế cánh cửa ra vào tốt nhất cho nhà vệ sinh Nam công cộng (mall / văn phòng / nhiều người dùng chung) · `[O, D]`
+### Q9 — Thiết kế cánh cửa ra vào tốt nhất cho nhà vệ sinh Nam công cộng (mall / văn phòng / nhiều người dùng chung) · `[O, D]`
 
 > Hãy thiết kế cánh cửa ra vào tốt nhất cho nhà vệ sinh Nam. (Nhà vệ sinh công cộng/mall/office,… nhiều người dùng chung)
 
@@ -212,7 +180,7 @@ Một quy trình. Xác định điểm nghẽn (chọn làn, phương thức tha
 
 ---
 
-### Q15 — Chọn quầy "ngon, bổ, rẻ" ở chợ trái cây buổi trưa, không hỏi ai · `[O, Cr, P]`
+### Q10 — Chọn quầy "ngon, bổ, rẻ" ở chợ trái cây buổi trưa, không hỏi ai · `[O, Cr, P]`
 
 > Bạn đang đi vào 1 khu vực chợ trái cây gồm nhiều loại trái cây yêu thích. Thời gian là buổi trưa, người bán đang không ở đó hoặc đang nghỉ trưa, nên bạn không muốn giao tiếp với ai. Làm thế nào để nhanh nhất chọn được quầy hàng nào bán "ngon, bổ, rẻ" để ghé vào mua?
 
@@ -234,32 +202,6 @@ Khả năng tìm **một quan sát duy nhất nén được nhiều ý nghĩa c�
 
 **Tín hiệu tốt:** Tìm được một dấu hiệu nén — một quan sát đơn lẻ về quầy/người bán mà đồng thời gợi lên cả ba lớp (lâu năm, phục vụ nhiều loại khách, sòng phẳng trong giao dịch) — và giải thích được vì sao một observation lại nén được nhiều ý nghĩa cùng lúc. Hiểu rằng "ngon-bổ-rẻ" là kết quả, dấu hiệu phải đọc qua **người bán và quầy**, không qua trái cây.
 **Tín hiệu yếu:** Liệt kê đặc điểm trái cây hiển nhiên. Cố tìm "quầy đông khách" trong khi đề đã loại trừ. Nhiều heuristic mỏng thay vì một quan sát sắc. Không phân biệt được dấu hiệu (proxy) với kết quả (outcome).
-
----
-
-### Q17 — Dắt con đi một mình: khi nào để bé dẫn, khi nào mình dẫn · `[O, S, P]`
-
-> Bạn là 1 người bố/mẹ đang học nuôi con. Bạn thường một mình dắt bé đi. Phân tích các cách dắt bé đi sao cho hiệu quả trong 2 môi trường: quen thuộc và lạ.
-
-**Câu này KHÔNG kiểm tra điều gì**
-
-- Liệt kê các cách dắt (nắm tay, bế, địu, xe đẩy…) — đó chỉ là thao tác bề mặt.
-- Trade-off "an toàn vs phát triển" — quá khái quát, không chạm được vào câu hỏi.
-- Quy trình quản lý rủi ro (điểm hẹn, số điện thoại trên áo…) — hữu ích nhưng không phải trọng tâm.
-
-**Câu này kiểm tra điều gì**
-
-Khả năng **đọc instinct** — của đứa bé, và của chính bản thân. Câu hỏi cốt lõi không phải "dắt bằng cách nào" mà là: **khi nào một con người (bé hay người lớn) muốn được dẫn, và khi nào muốn được tự dẫn?** Cùng một sinh vật, hai trạng thái tâm lý khác nhau, hai cách "dắt" khác nhau.
-
-Người trả lời tốt nhận ra rằng:
-
-- Trong môi trường **quen**, bé thường phát ra tín hiệu *muốn tự dẫn* — kéo về phía trước, chạy lên, chọn lối, không thèm nắm tay, muốn "chỉ đường" cho bố/mẹ. Đó là bản năng của một con người đang ở vùng họ làm chủ. Đè ép sẽ tạo xung đột; thuận theo sẽ thấy bé tự tin.
-- Trong môi trường **lạ**, cùng đứa bé đó phát ra tín hiệu *muốn được dẫn* — bám tay, ngước nhìn nhiều hơn, đứng khựng ở ngã rẽ, đi sát chân bố/mẹ. Đây là bản năng của một con người đang ở vùng không làm chủ. Lúc này nếu bố/mẹ thả lỏng "cho con tự lập" thì sai instinct — bé đang xin được dẫn.
-
-Hay nhất là ứng viên thấy được sự đồng dạng với **chính người lớn**: ai trong chúng ta cũng vậy — ở mảng mình thạo thì muốn tự đi, ở mảng lạ thì muốn có người dẫn. Đứa bé chỉ đơn giản và minh bạch hơn về việc đó.
-
-**Tín hiệu tốt:** Đặt câu hỏi thành *"khi nào bé muốn dẫn, khi nào bé muốn được dẫn"* thay vì *"dắt bằng cách nào"*. Mô tả được những dấu hiệu cụ thể bé phát ra cho mỗi trạng thái. Thấy được sự đồng dạng giữa instinct của bé và của người lớn. Hiểu rằng vai trò bố/mẹ là **đọc tín hiệu và đi theo**, không phải áp đặt một phương án "đúng".
-**Tín hiệu yếu:** Tập trung vào dụng cụ và thao tác (xe đẩy, địu, nắm tay…). Đưa trade-off chung chung như "an toàn vs phát triển". Coi bé như đối tượng quản lý, không phải một con người đang phát tín hiệu. Áp một cách dắt cố định cho cả hai môi trường, hoặc đảo ngược instinct (dẫn ở chỗ quen, thả ở chỗ lạ).
 
 ---
 

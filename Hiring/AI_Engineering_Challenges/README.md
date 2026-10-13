@@ -18,7 +18,7 @@ This reflects how we actually work. Every engineer, product manager, and analyst
 ## How to Approach
 
 1. **Read the challenge carefully.** Understand what's being asked and why it matters in insurance before you start building.
-2. **Use any AI coding tool you're comfortable with.** Claude Code, Cursor, GitHub Copilot, ChatGPT — whatever helps you deliver the best result.
+2. **Use any AI coding tool you're comfortable with.** Claude Code, Cursor, GitHub Copilot, Codex — whatever helps you deliver the best result.
 3. **Focus on the outcome.** A working, correct, well-presented solution matters more than how you got there.
 4. **Don't fake it.** If the AI generates something you don't understand, take the time to understand it. We may ask you to explain your solution.
 
@@ -39,7 +39,7 @@ Agentic engineering doesn't *create* these qualities. It amplifies what you alre
 
 Include the **verbatim messages you sent to your coding agent** alongside your code — a chat export, transcript file, or readable log. Any format works as long as it's the raw conversation, not a cleaned-up retelling.
 
-This is not optional. **Submissions without an AI conversation log will score noticeably lower.** We read it to understand how you directed the AI: how you broke the problem down, where you caught mistakes the AI made, which trade-offs you negotiated, and what you chose to ignore. The conversation is part of the work product, not an afterthought.
+This is not optional. **Submissions without an AI conversation will be automatically marked as failed.** We read it to understand how you directed the AI: how you broke the problem down, where you caught mistakes the AI made, which trade-offs you negotiated, and what you chose to ignore. The conversation is part of the work product, not an afterthought.
 
 ## Challenges
 
@@ -80,5 +80,14 @@ Each challenge specifies its own submission format. In general:
 - Push your project to a **GitHub repository**
 - Include a **live URL** if the challenge asks for deployment
 - Provide a brief **writeup** explaining your approach and any decisions you made
+
+## Interview day
+
+The take-home gets you in the room. On interview day you build again — live, with us watching how you work with your AI tools. Pick **one** of the following before the session:
+
+1. **AI-generated document detector.** You're given a document that is 100% synthesized by AI. Build an AI agent that detects such documents and explains why it flagged them.
+2. **Tampered scanned document.** You're given a scanned document (e.g. a medical bill or invoice) that was altered after scanning. Find the tampering and build a check that would catch it.
+
+Same rules as the take-home: use your AI tools, keep the conversation log, and expect follow-up questions on every decision.
 
 Good luck — we're excited to see what you build.
