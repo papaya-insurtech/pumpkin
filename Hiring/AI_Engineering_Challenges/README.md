@@ -87,6 +87,8 @@ The take-home gets you in the room. On interview day you build again — live, w
 
 1. **AI-generated document detector.** You're given a document that is 100% synthesized by AI. Build an AI agent that detects such documents and explains why it flagged them.
 2. **Tampered scanned document.** You're given a scanned document (e.g. a medical bill or invoice) that was altered after scanning. Find the tampering and build a check that would catch it.
+3. **Reduce extraction cost.** You're given a working document-extraction agent ([extraction-cost-challenge](https://github.com/papaya-insurtech/extraction-cost-challenge): Flue + Gemini, deliberately expensive). Make it cheaper and faster without dropping a single field below the accuracy floor, and prove it with real runs.
+4. **Build the extractor from scratch.** You're given the same scanned hospital discharge paper (Giấy ra viện) and the target JSON schema. Build an AI agent that extracts it, measure its accuracy against the ground truth, and report what it costs per document.
 
 Same rules as the take-home: use your AI tools, keep the conversation log, and expect follow-up questions on every decision.
 
