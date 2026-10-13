@@ -41,6 +41,20 @@ Include the **verbatim messages you sent to your coding agent** alongside your c
 
 This is not optional. **Submissions without an AI conversation will be automatically marked as failed.** We read it to understand how you directed the AI: how you broke the problem down, where you caught mistakes the AI made, which trade-offs you negotiated, and what you chose to ignore. The conversation is part of the work product, not an afterthought.
 
+## How many challenges
+
+Every challenge is worth points: **beginner = 1, intermediate = 2, advanced = 3.** Submit exactly **3 points**:
+
+- 1 advanced, or
+- 1 intermediate + 1 beginner, or
+- 3 beginners
+
+Each path is roughly the same effort. Pick by what you want to show us, not by what is quickest.
+
+- **Applying for a senior role? Pick the advanced challenge.** We hire for design and judgment; three small demos show throughput, one hard problem shows how you decompose. Three beginners from a senior candidate reads as avoiding the hard thing.
+- **If you submit more than one, make them related.** For example 06 Benefits Calculator feeding 07 Claims Intake Wizard, or 01 Plan Comparison and 05 Policy Summary on the same data. We want to see design across boundaries, not disconnected demos.
+- **One AI conversation log per challenge.** The auto-fail rule above applies to each submission separately.
+
 ## Challenges
 
 ### Beginner (2–4 hours)
