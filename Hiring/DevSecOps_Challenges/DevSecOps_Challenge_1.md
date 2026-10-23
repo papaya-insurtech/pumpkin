@@ -43,8 +43,12 @@ You don't have access to our systems or code, and we don't expect you to.
 
 ## Submission
 
-- Your deliverable(s) — via a GitHub repository, a cloud storage link (Google Drive, OneDrive, …), or direct files.
-- The **complete, raw, unedited conversation(s)** with your coding agent — every session you used for this challenge. Native session files are preferred (e.g. Claude Code: `~/.claude/projects/**/*.jsonl`; Codex CLI: `~/.codex/sessions/`); for chat apps, an export or a share link.
+Submit everything in **one GitHub repository** and send us the link. Other channels (cloud storage, email attachments) are not accepted.
+
+The repository must contain:
+
+- Your deliverable(s).
+- The **complete, raw, unedited conversation(s)** with your coding agent — every session you used for this challenge. Native session files are preferred (e.g. Claude Code: `~/.claude/projects/**/*.jsonl`; Codex CLI: `~/.codex/sessions/`); for chat apps, commit an export of the conversation.
 
 **Submissions without the agent conversation will be automatically marked as failed.**
 
