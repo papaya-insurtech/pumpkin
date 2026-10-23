@@ -3,12 +3,7 @@
 ## Note
 
 - You are required to use a coding agent (e.g. Claude Code, Codex, Cursor) to complete this challenge.
-- Please estimate and give us your timeline.
 - If you have any issues or questions, don't hesitate to contact us.
-
-## Difficulty
-
-Advanced · 6–8 hours
 
 ## Context
 
