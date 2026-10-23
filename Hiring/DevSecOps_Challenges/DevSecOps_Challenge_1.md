@@ -52,8 +52,6 @@ You don't have access to our systems or code, and we don't expect you to.
 
 ## Appendix A — Papaya Platform Context
 
-<!-- TODO(hiring): confirm every item below against the real stack before publishing. -->
-
 ### Cloud
 
 - **AWS (primary):** Lambda (Serverless Framework), ECS, EC2, Aurora PostgreSQL, SNS, SQS, Step Functions, S3 (claim documents), CloudWatch.
