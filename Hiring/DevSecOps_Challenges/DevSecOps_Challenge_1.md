@@ -1,4 +1,4 @@
-# DevSecOps Challenge 1 — Agentic DevSecOps at Papaya
+# DevSecOps Challenge 1 — DevSecOps with Coding Agents at Papaya
 
 ## Note
 
