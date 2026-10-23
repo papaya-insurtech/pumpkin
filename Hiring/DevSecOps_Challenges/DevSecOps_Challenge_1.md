@@ -46,18 +46,10 @@ Your design should answer, at minimum:
 
 You don't have access to our systems or code, and we don't expect you to. Where you need information you don't have, decide what to do about it.
 
-## Your Readers
-
-Your deliverable will be read by three groups:
-
-- **Head of Engineering and CTO** — decide whether to adopt your framework and what to fund first.
-- **Engineers** — will follow your framework every day.
-- **An ISO 27001 auditor** — will ask how your framework controls risk.
-
 ## Requirements
 
 - Use your coding agent throughout — for research, brainstorming, design, and producing the deliverable.
-- **The format of the deliverable is your choice**: Markdown, HTML, PDF, slides, diagrams, a sample repository with configs or code, or any combination. Choose what best serves your readers.
+- The format of the deliverable is up to you.
 - The design should be specific to Papaya — our stack, our data, our regulations, our current state — not a generic DevSecOps framework.
 
 ## Submit your agent conversation (required)
