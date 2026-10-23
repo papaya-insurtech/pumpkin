@@ -33,28 +33,18 @@ We've heard two strong opinions from inside the company:
 
 ## Problem
 
-You are joining as our DevSecOps Engineer. Your first mission: **design the framework for how Papaya uses coding agents to build, operate, and secure its infrastructure — and how Papaya keeps those agents themselves secure.**
+You are joining as our DevSecOps Engineer. Your first mission: **design the framework and workflow for how Papaya uses coding agents for DevSecOps.**
 
-Your design should answer, at minimum:
-
-1. **Building.** How should engineers use coding agents for Infrastructure as Code, Kubernetes, and CI/CD work? What does a "good" agent-assisted infra change look like from idea to production?
-2. **Securing the SDLC.** Where do agents fit into security across the lifecycle — design, code, review, build, deploy? Where should they *not* be used?
-3. **Operating.** How do agents participate in monitoring, alerting, and incident response? How do you resolve the Engineering vs. Compliance tension above?
-4. **Compliance.** How does this framework help (or hurt) ISO 27001, HIPAA, and regional data-protection compliance? What evidence would you show an auditor?
-5. **Governing the agents.** Agents are a new kind of actor in our system. How are they configured, permissioned, audited, and kept safe?
-6. **Rolling out.** How do you take Papaya from "today" to your target state? What comes first, and how do you know it's working?
-
-You don't have access to our systems or code, and we don't expect you to. Where you need information you don't have, decide what to do about it.
+You don't have access to our systems or code, and we don't expect you to.
 
 ## Requirements
 
-- Use your coding agent throughout — for research, brainstorming, design, and producing the deliverable.
+- Use your coding agent throughout.
 - The format of the deliverable is up to you.
-- The design should be specific to Papaya — our stack, our data, our regulations, our current state — not a generic DevSecOps framework.
 
 ## Submit your agent conversation (required)
 
-Include the **complete, raw conversation(s)** with your agent(s) — every session you used for this challenge, including brainstorming in chat apps.
+Include the **complete, raw conversation(s)** with your agent(s) — every session you used for this challenge, including chat apps.
 
 - Prefer the tool's native session files over copy-paste. For example, Claude Code stores sessions as `.jsonl` files under `~/.claude/projects/`; Codex CLI stores them under `~/.codex/sessions/`. For chat apps (claude.ai, ChatGPT, …), share an export or a conversation link.
 - Do not clean up or rewrite the conversation. If you must hide something (a secret, personal information, your current employer's details), replace it with `[REDACTED]` and leave the rest intact.
