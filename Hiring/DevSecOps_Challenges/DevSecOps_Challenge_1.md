@@ -70,7 +70,7 @@ You don't have access to our systems or code, and we don't expect you to.
 
 ### Engineering
 
-- **Source control & CI/CD:** a single monorepo on GitHub for the whole system — apps, web, backend, mobile, AI/ML, and Infrastructure as Code; GitHub Actions for CI/CD.
+- **Source control & CI/CD:** a single monorepo on GitHub for the whole system — apps, web, backend, mobile, AI/ML, and Infrastructure as Code ([Pulumi](https://www.pulumi.com/)); GitHub Actions for CI/CD.
 - **Coding agent:** Claude Code (Team Premium) for every engineer; internal Claude Code plugins are distributed via a plugin marketplace.
 - **Work tracking & communication:** Linear, Slack.
 - **Tenancy:** multiple insurer partners across countries (e.g. Vietnam, Thailand, Hong Kong), each with their own data and contractual requirements.
