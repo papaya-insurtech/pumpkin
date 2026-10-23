@@ -2,7 +2,7 @@
 
 ## Note
 
-- You are expected to use a coding agent (Claude Code is our standard tool; Codex, Cursor, or similar are fine) to complete this challenge — the same way you would do your daily work.
+- You are required to use a coding agent (e.g. Claude Code, Codex, Cursor) to complete this challenge.
 - Please estimate and give us your timeline.
 - If you have any issues or questions, don't hesitate to contact us.
 
@@ -39,26 +39,14 @@ You don't have access to our systems or code, and we don't expect you to.
 
 ## Requirements
 
-- Use your coding agent throughout.
 - The format of the deliverable is up to you.
-
-## Submit your agent conversation (required)
-
-Include the **complete, raw conversation(s)** with your agent(s) — every session you used for this challenge, including chat apps.
-
-- Prefer the tool's native session files over copy-paste. For example, Claude Code stores sessions as `.jsonl` files under `~/.claude/projects/`; Codex CLI stores them under `~/.codex/sessions/`. For chat apps (claude.ai, ChatGPT, …), share an export or a conversation link.
-- Do not clean up or rewrite the conversation. If you must hide something (a secret, personal information, your current employer's details), replace it with `[REDACTED]` and leave the rest intact.
-- We recommend a fresh environment/account for this challenge so you don't share anything unrelated by accident.
-
-The conversation is part of the work product, not an afterthought. **Submissions without the agent conversation will be automatically marked as failed.**
 
 ## Submission
 
 - Your deliverable(s) — via a GitHub repository, a cloud storage link (Google Drive, OneDrive, …), or direct files.
-- Your raw agent conversation(s), as described above.
-- A short note: which tools you used, and how long you spent.
+- The **complete, raw, unedited conversation(s)** with your coding agent — every session you used for this challenge. Native session files are preferred (e.g. Claude Code: `~/.claude/projects/**/*.jsonl`; Codex CLI: `~/.codex/sessions/`); for chat apps, an export or a share link.
 
-If you pass, the interview will be built on what you submit — expect us to walk through your design and your conversation with you, and to extend your framework together, live, with your agent.
+**Submissions without the agent conversation will be automatically marked as failed.**
 
 ---
 
