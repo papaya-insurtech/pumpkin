@@ -58,7 +58,7 @@ You don't have access to our systems or code, and we don't expect you to.
 
 - **AWS (primary):** Lambda (Serverless Framework), ECS, EC2, Aurora PostgreSQL, SNS, SQS, Step Functions, S3 (claim documents), CloudWatch.
 - **GCP:** Vertex AI and Gemini API workloads for document AI and ML models.
-- **Kubernetes:** workloads for AI agents and internal services.
+- **Kubernetes ([k0s](https://k0sproject.io/)):** workloads for AI agents and internal services.
 - **Hosting:** Firebase Hosting for web frontends.
 
 ### Application
